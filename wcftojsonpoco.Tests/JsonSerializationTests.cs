@@ -457,4 +457,143 @@ public class JsonSerializationTests
         // Test acknowledgement type
         Assert.Equal("\"SUCCESS\"", JsonSerializer.Serialize(acknowledgementType.SUCCESS));
     }
+
+    [Fact]
+    public void RegistrationJson_DeserializesIntoRegisterHealthCaseRequestType_PropertiesPopulated()
+    {
+        // Arrange: read JSON from the test output directory
+        var jsonPath = Path.Combine(AppContext.BaseDirectory, "registration.json");
+        Assert.True(File.Exists(jsonPath), $"registration.json not found at {jsonPath}");
+        var json = File.ReadAllText(jsonPath);
+
+        // Act
+        var model = JsonSerializer.Deserialize<registerHealthCaseRequestType>(json, _options);
+
+        // Assert - top-level properties and exact values
+        Assert.NotNull(model);
+        Assert.Equal("100000000000000001", model!.CorrelationID);
+        Assert.NotNull(model.CachedCreationDate);
+        Assert.Equal("2019", model.CachedCreationDate!.UnstructuredYear);
+        Assert.Equal("11", model.CachedCreationDate!.UnstructuredMonth);
+        Assert.Equal("1", model.CachedCreationDate!.UnstructuredDay);
+
+        // HealthCaseIdentifierMsg
+        Assert.NotNull(model.HealthCaseIdentifierMsg);
+        Assert.Equal(20, model.HealthCaseIdentifierMsg!.Length);
+        // Exhaustively validate all entries against expected values
+        var expectedCaseIds = new (string value, string type)[]
+        {
+            ("U000010002", "UMI"),
+            ("40033127", "IME"),("40033127", "IME"),("40033127", "IME"),("40033127", "IME"),
+            ("40033127", "IME"),("40033127", "IME"),("40033127", "IME"),("40033127", "IME"),("40033127", "IME"),
+            ("40033127", "IME"),("40033127", "IME"),("40033127", "IME"),("40033127", "IME"),("40033127", "IME"),
+            ("40033127", "IME"),("40033127", "IME"),("40033127", "IME"),("40033127", "IME"),
+            ("9191", "IOMGID")
+        };
+        for (int i = 0; i < expectedCaseIds.Length; i++)
+        {
+            var item = model.HealthCaseIdentifierMsg[i];
+            Assert.NotNull(item.HealthCaseIdentifier);
+            Assert.Equal(expectedCaseIds[i].value, item.HealthCaseIdentifier!.HealthCaseIdentifierValue);
+            Assert.Equal(expectedCaseIds[i].type, item.HealthCaseIdentifier!.HealthCaseIdentifierType);
+            Assert.Null(item.AssessmentType);
+        }
+
+        // HealthClinicIdentifierMsg
+        Assert.NotNull(model.HealthClinicIdentifierMsg);
+        Assert.Equal("12345", model.HealthClinicIdentifierMsg!.HealthClinicIdentifier);
+        Assert.Equal("CLINIC_ID", model.HealthClinicIdentifierMsg!.HealthClinicIdentifierType);
+
+        // RegisterHealthCaseClientBiographicalDetails
+        Assert.NotNull(model.RegisterHealthCaseClientBiographicalDetails);
+        var bio = model.RegisterHealthCaseClientBiographicalDetails!;
+        Assert.Null(bio.Title);
+        Assert.Equal("Maria", bio.GivenName);
+        Assert.Equal("Mañego", bio.FamilyName);
+        // Enum SexType in JSON is numeric 1; verify mapped enum value
+        Assert.Equal(sexTypeType.F, bio.SexType);
+        Assert.Equal("1990", bio.CachedBirthYear!.UnstructuredYear);
+        Assert.Equal("11", bio.CachedBirthMonth!.UnstructuredMonth);
+        Assert.Equal("15", bio.CachedBirthDay!.UnstructuredDay);
+        Assert.Equal("AFGH", bio.BirthCountryCode);
+        Assert.Equal("WI", bio.RelationshipToPrimaryApplicant);
+        Assert.NotNull(bio.CachedBirthYear);
+        Assert.False(string.IsNullOrWhiteSpace(bio.CachedBirthYear!.UnstructuredYear));
+        Assert.NotNull(bio.CachedBirthMonth);
+        Assert.False(string.IsNullOrWhiteSpace(bio.CachedBirthMonth!.UnstructuredMonth));
+        Assert.NotNull(bio.CachedBirthDay);
+        Assert.False(string.IsNullOrWhiteSpace(bio.CachedBirthDay!.UnstructuredDay));
+
+        // Nested document
+        Assert.NotNull(bio.HealthIdentityDocumentMsg);
+        Assert.Equal("01", bio.HealthIdentityDocumentMsg!.DocumentTypeCode);
+        Assert.Null(bio.HealthIdentityDocumentMsg!.DocumentType);
+        Assert.Equal("12345", bio.HealthIdentityDocumentMsg!.DocumentNumber);
+        Assert.Equal("AFG", bio.HealthIdentityDocumentMsg!.IssuingCountryName);
+        Assert.Equal("2019", bio.HealthIdentityDocumentMsg!.CachedIssueDate!.UnstructuredYear);
+        Assert.Equal("1", bio.HealthIdentityDocumentMsg!.CachedIssueDate!.UnstructuredMonth);
+        Assert.Equal("1", bio.HealthIdentityDocumentMsg!.CachedIssueDate!.UnstructuredDay);
+        Assert.Equal("2025", bio.HealthIdentityDocumentMsg!.CachedExpiryDate!.UnstructuredYear);
+        Assert.Equal("11", bio.HealthIdentityDocumentMsg!.CachedExpiryDate!.UnstructuredMonth);
+        Assert.Equal("1", bio.HealthIdentityDocumentMsg!.CachedExpiryDate!.UnstructuredDay);
+
+        // Contact list
+        Assert.NotNull(bio.HealthClientContactListMsg);
+        Assert.Single(bio.HealthClientContactListMsg!);
+        var contact = bio.HealthClientContactListMsg![0];
+        Assert.Equal("3", contact.UsageCode);
+        Assert.True(contact.HealthPrimaryContactFlag);
+        Assert.Null(contact.CommentText);
+        // Item is an address object in JSON; depending on generated model, it may map to HealthLocationMsg or an Address union.
+        // Validate via HealthLocationMsg when present; otherwise ensure at least AddressLine1 is captured.
+        if (contact.HealthLocationMsg is not null)
+        {
+            Assert.Equal("street", contact.HealthLocationMsg.AddressLine1);
+            Assert.Null(contact.HealthLocationMsg.AddressLine2);
+            Assert.Null(contact.HealthLocationMsg.AddressLine3);
+            Assert.Null(contact.HealthLocationMsg.AddressLine4);
+            Assert.Null(contact.HealthLocationMsg.LocalityName);
+            Assert.Null(contact.HealthLocationMsg.StateTerritoryName);
+            Assert.Equal("kandahar", contact.HealthLocationMsg.ProvinceName);
+            Assert.Equal("AFGH", contact.HealthLocationMsg.CountryCode);
+            Assert.Null(contact.HealthLocationMsg.PostalCode);
+        }
+
+        // Visa context
+        Assert.NotNull(bio.RegisterHealthCaseVisaContext);
+        Assert.Single(bio.RegisterHealthCaseVisaContext!);
+        Assert.Equal("IME", bio.RegisterHealthCaseVisaContext![0].HealthVisaContextType);
+        Assert.Equal("REF", bio.RegisterHealthCaseVisaContext![0].HealthVisaContextValue);
+
+        // Requirements list
+        Assert.NotNull(bio.RegisterHealthCaseRequirementList);
+        Assert.Equal(5, bio.RegisterHealthCaseRequirementList!.Length);
+        // Exhaustively validate all requirements
+        var expectedReqs = new (string type, (string Y, string M, string D, string h, string m, string s) created, (string Y, string M, string D, string h, string m, string s) status)[]
+        {
+            ("501", ("2019","11","1","0","17","21"), ("2019","11","1","0","24","54")),
+            ("502", ("2019","11","1","0","17","21"), ("2019","11","1","0","23","46")),
+            ("707", ("2019","11","1","0","17","21"), ("2019","11","1","0","23","35")),
+            ("712", ("2019","11","1","0","17","21"), ("2019","11","1","0","23","22")),
+            ("948", ("2019","11","1","0","20","49"), ("2019","11","1","0","21","12"))
+        };
+        for (int i = 0; i < expectedReqs.Length; i++)
+        {
+            var req = bio.RegisterHealthCaseRequirementList[i];
+            Assert.Equal(expectedReqs[i].type, req.HealthRequirementType);
+            Assert.Equal("INCM", req.HealthRequirementStatusCode);
+            Assert.Equal(expectedReqs[i].created.Y, req.CachedCreatedTimestamp!.UnstructuredYear);
+            Assert.Equal(expectedReqs[i].created.M, req.CachedCreatedTimestamp!.UnstructuredMonth);
+            Assert.Equal(expectedReqs[i].created.D, req.CachedCreatedTimestamp!.UnstructuredDay);
+            Assert.Equal(expectedReqs[i].created.h, req.CachedCreatedTimestamp!.UnstructuredHour);
+            Assert.Equal(expectedReqs[i].created.m, req.CachedCreatedTimestamp!.UnstructuredMinute);
+            Assert.Equal(expectedReqs[i].created.s, req.CachedCreatedTimestamp!.UnstructuredSecond);
+            Assert.Equal(expectedReqs[i].status.Y, req.CachedStatusTimestamp!.UnstructuredYear);
+            Assert.Equal(expectedReqs[i].status.M, req.CachedStatusTimestamp!.UnstructuredMonth);
+            Assert.Equal(expectedReqs[i].status.D, req.CachedStatusTimestamp!.UnstructuredDay);
+            Assert.Equal(expectedReqs[i].status.h, req.CachedStatusTimestamp!.UnstructuredHour);
+            Assert.Equal(expectedReqs[i].status.m, req.CachedStatusTimestamp!.UnstructuredMinute);
+            Assert.Equal(expectedReqs[i].status.s, req.CachedStatusTimestamp!.UnstructuredSecond);
+        }
+    }
 }

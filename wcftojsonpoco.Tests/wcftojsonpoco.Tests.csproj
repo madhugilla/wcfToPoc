@@ -15,7 +15,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Using Include="Xunit" />
+    <None Include="registration.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
   <ItemGroup>

@@ -1,0 +1,313 @@
+{
+	"CorrelationID": "100000000000000001",
+	"CachedCreationDate": {
+		"UnstructuredYear": "2019",
+		"UnstructuredMonth": "11",
+		"UnstructuredDay": "1"
+	},
+	"HealthCaseIdentifierMsg": [
+		{
+			"HealthCaseIdentifier": {
+				"HealthCaseIdentifierValue": "U000010002",
+				"HealthCaseIdentifierType": "UMI"
+			},
+			"AssessmentTypeSpecified": false
+		},
+		{
+			"HealthCaseIdentifier": {
+				"HealthCaseIdentifierValue": "40033127",
+				"HealthCaseIdentifierType": "IME"
+			},
+			"AssessmentTypeSpecified": false
+		},
+		{
+			"HealthCaseIdentifier": {
+				"HealthCaseIdentifierValue": "40033127",
+				"HealthCaseIdentifierType": "IME"
+			},
+			"AssessmentTypeSpecified": false
+		},
+		{
+			"HealthCaseIdentifier": {
+				"HealthCaseIdentifierValue": "40033127",
+				"HealthCaseIdentifierType": "IME"
+			},
+			"AssessmentTypeSpecified": false
+		},
+		{
+			"HealthCaseIdentifier": {
+				"HealthCaseIdentifierValue": "40033127",
+				"HealthCaseIdentifierType": "IME"
+			},
+			"AssessmentTypeSpecified": false
+		},
+		{
+			"HealthCaseIdentifier": {
+				"HealthCaseIdentifierValue": "40033127",
+				"HealthCaseIdentifierType": "IME"
+			},
+			"AssessmentTypeSpecified": false
+		},
+		{
+			"HealthCaseIdentifier": {
+				"HealthCaseIdentifierValue": "40033127",
+				"HealthCaseIdentifierType": "IME"
+			},
+			"AssessmentTypeSpecified": false
+		},
+		{
+			"HealthCaseIdentifier": {
+				"HealthCaseIdentifierValue": "40033127",
+				"HealthCaseIdentifierType": "IME"
+			},
+			"AssessmentTypeSpecified": false
+		},
+		{
+			"HealthCaseIdentifier": {
+				"HealthCaseIdentifierValue": "40033127",
+				"HealthCaseIdentifierType": "IME"
+			},
+			"AssessmentTypeSpecified": false
+		},
+		{
+			"HealthCaseIdentifier": {
+				"HealthCaseIdentifierValue": "40033127",
+				"HealthCaseIdentifierType": "IME"
+			},
+			"AssessmentTypeSpecified": false
+		},
+		{
+			"HealthCaseIdentifier": {
+				"HealthCaseIdentifierValue": "40033127",
+				"HealthCaseIdentifierType": "IME"
+			},
+			"AssessmentTypeSpecified": false
+		},
+		{
+			"HealthCaseIdentifier": {
+				"HealthCaseIdentifierValue": "40033127",
+				"HealthCaseIdentifierType": "IME"
+			},
+			"AssessmentTypeSpecified": false
+		},
+		{
+			"HealthCaseIdentifier": {
+				"HealthCaseIdentifierValue": "40033127",
+				"HealthCaseIdentifierType": "IME"
+			},
+			"AssessmentTypeSpecified": false
+		},
+		{
+			"HealthCaseIdentifier": {
+				"HealthCaseIdentifierValue": "40033127",
+				"HealthCaseIdentifierType": "IME"
+			},
+			"AssessmentTypeSpecified": false
+		},
+		{
+			"HealthCaseIdentifier": {
+				"HealthCaseIdentifierValue": "40033127",
+				"HealthCaseIdentifierType": "IME"
+			},
+			"AssessmentTypeSpecified": false
+		},
+		{
+			"HealthCaseIdentifier": {
+				"HealthCaseIdentifierValue": "40033127",
+				"HealthCaseIdentifierType": "IME"
+			},
+			"AssessmentTypeSpecified": false
+		},
+		{
+			"HealthCaseIdentifier": {
+				"HealthCaseIdentifierValue": "40033127",
+				"HealthCaseIdentifierType": "IME"
+			},
+			"AssessmentTypeSpecified": false
+		},
+		{
+			"HealthCaseIdentifier": {
+				"HealthCaseIdentifierValue": "40033127",
+				"HealthCaseIdentifierType": "IME"
+			},
+			"AssessmentTypeSpecified": false
+		},
+		{
+			"HealthCaseIdentifier": {
+				"HealthCaseIdentifierValue": "40033127",
+				"HealthCaseIdentifierType": "IME"
+			},
+			"AssessmentTypeSpecified": false
+		},
+		{
+			"HealthCaseIdentifier": {
+				"HealthCaseIdentifierValue": "9191",
+				"HealthCaseIdentifierType": "IOMGID"
+			},
+			"AssessmentTypeSpecified": false
+		}
+	],
+	"HealthClinicIdentifierMsg": {
+		"HealthClinicIdentifier": "12345",
+		"HealthClinicIdentifierType": "CLINIC_ID"
+	},
+	"RegisterHealthCaseClientBiographicalDetails": {
+		"Title": null,
+		"GivenName": "Maria",
+		"FamilyName": "Mañego",
+		"SexType": 1,
+		"CachedBirthYear": {
+			"UnstructuredYear": "1990"
+		},
+		"CachedBirthMonth": {
+			"UnstructuredMonth": "11"
+		},
+		"CachedBirthDay": {
+			"UnstructuredDay": "15"
+		},
+		"BirthCountryCode": "AFGH",
+		"RelationshipToPrimaryApplicant": "WI",
+		"HealthIdentityDocumentMsg": {
+			"DocumentTypeCode": "01",
+			"DocumentType": null,
+			"DocumentNumber": "12345",
+			"IssuingCountryName": "AFG",
+			"CachedIssueDate": {
+				"UnstructuredYear": "2019",
+				"UnstructuredMonth": "1",
+				"UnstructuredDay": "1"
+			},
+			"CachedExpiryDate": {
+				"UnstructuredYear": "2025",
+				"UnstructuredMonth": "11",
+				"UnstructuredDay": "1"
+			}
+		},
+		"HealthClientContactListMsg": [
+			{
+				"UsageCode": "3",
+				"HealthPrimaryContactFlag": true,
+				"CommentText": null,
+				"Item": {
+					"AddressLine1": "street",
+					"AddressLine2": null,
+					"AddressLine3": null,
+					"AddressLine4": null,
+					"LocalityName": null,
+					"StateTerritoryName": null,
+					"ProvinceName": "kandahar",
+					"CountryCode": "AFGH",
+					"PostalCode": null
+				}
+			}
+		],
+		"RegisterHealthCaseVisaContext": [
+			{
+				"HealthVisaContextType": "IME",
+				"HealthVisaContextValue": "REF"
+			}
+		],
+		"RegisterHealthCaseRequirementList": [
+			{
+				"HealthRequirementType": "501",
+				"CachedCreatedTimestamp": {
+					"UnstructuredYear": "2019",
+					"UnstructuredMonth": "11",
+					"UnstructuredDay": "1",
+					"UnstructuredHour": "0",
+					"UnstructuredMinute": "17",
+					"UnstructuredSecond": "21"
+				},
+				"HealthRequirementStatusCode": "INCM",
+				"CachedStatusTimestamp": {
+					"UnstructuredYear": "2019",
+					"UnstructuredMonth": "11",
+					"UnstructuredDay": "1",
+					"UnstructuredHour": "0",
+					"UnstructuredMinute": "24",
+					"UnstructuredSecond": "54"
+				}
+			},
+			{
+				"HealthRequirementType": "502",
+				"CachedCreatedTimestamp": {
+					"UnstructuredYear": "2019",
+					"UnstructuredMonth": "11",
+					"UnstructuredDay": "1",
+					"UnstructuredHour": "0",
+					"UnstructuredMinute": "17",
+					"UnstructuredSecond": "21"
+				},
+				"HealthRequirementStatusCode": "INCM",
+				"CachedStatusTimestamp": {
+					"UnstructuredYear": "2019",
+					"UnstructuredMonth": "11",
+					"UnstructuredDay": "1",
+					"UnstructuredHour": "0",
+					"UnstructuredMinute": "23",
+					"UnstructuredSecond": "46"
+				}
+			},
+			{
+				"HealthRequirementType": "707",
+				"CachedCreatedTimestamp": {
+					"UnstructuredYear": "2019",
+					"UnstructuredMonth": "11",
+					"UnstructuredDay": "1",
+					"UnstructuredHour": "0",
+					"UnstructuredMinute": "17",
+					"UnstructuredSecond": "21"
+				},
+				"HealthRequirementStatusCode": "INCM",
+				"CachedStatusTimestamp": {
+					"UnstructuredYear": "2019",
+					"UnstructuredMonth": "11",
+					"UnstructuredDay": "1",
+					"UnstructuredHour": "0",
+					"UnstructuredMinute": "23",
+					"UnstructuredSecond": "35"
+				}
+			},
+			{
+				"HealthRequirementType": "712",
+				"CachedCreatedTimestamp": {
+					"UnstructuredYear": "2019",
+					"UnstructuredMonth": "11",
+					"UnstructuredDay": "1",
+					"UnstructuredHour": "0",
+					"UnstructuredMinute": "17",
+					"UnstructuredSecond": "21"
+				},
+				"HealthRequirementStatusCode": "INCM",
+				"CachedStatusTimestamp": {
+					"UnstructuredYear": "2019",
+					"UnstructuredMonth": "11",
+					"UnstructuredDay": "1",
+					"UnstructuredHour": "0",
+					"UnstructuredMinute": "23",
+					"UnstructuredSecond": "22"
+				}
+			},
+			{
+				"HealthRequirementType": "948",
+				"CachedCreatedTimestamp": {
+					"UnstructuredYear": "2019",
+					"UnstructuredMonth": "11",
+					"UnstructuredDay": "1",
+					"UnstructuredHour": "0",
+					"UnstructuredMinute": "20",
+					"UnstructuredSecond": "49"
+				},
+				"HealthRequirementStatusCode": "INCM",
+				"CachedStatusTimestamp": {
+					"UnstructuredYear": "2019",
+					"UnstructuredMonth": "11",
+					"UnstructuredDay": "1",
+					"UnstructuredHour": "0",
+					"UnstructuredMinute": "21",
+					"UnstructuredSecond": "12"
+				}
+			}
+		]
+	}
+}
