@@ -1,3 +1,4 @@
 {
-    "dotnet.defaultSolution": "wcftojsonpoco.sln"
+    "dotnet.defaultSolution": "wcftojsonpoco.sln",
+    "sarif-viewer.connectToGithubCodeScanning": "off"
 }
