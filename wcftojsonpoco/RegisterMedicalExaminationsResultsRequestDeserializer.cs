@@ -6,7 +6,7 @@ namespace eMedicalService.LegacyJavaWcfService
     /// Main request type for registering medical examination results.
     /// This class can deserialize JSON sent from the WCF service.
     /// </summary>
-    public partial class registerMedicalExaminationsResultsRequestType
+    public class registerMedicalExaminationsResultsRequestType
     {
         [JsonPropertyName("CorrelationID")]
         public string? CorrelationID { get; set; }
@@ -36,7 +36,7 @@ namespace eMedicalService.LegacyJavaWcfService
     /// <summary>
     /// Health case identifier message type
     /// </summary>
-    public partial class healthCaseIdentifierMsgType
+    public class healthCaseIdentifierMsgType
     {
         [JsonPropertyName("HealthCaseIdentifier")]
         public healthCaseIdentifierType? HealthCaseIdentifier { get; set; }
@@ -55,7 +55,7 @@ namespace eMedicalService.LegacyJavaWcfService
     /// <summary>
     /// Health case identifier type
     /// </summary>
-    public partial class healthCaseIdentifierType
+    public class healthCaseIdentifierType
     {
         [JsonPropertyName("HealthCaseIdentifierValue")]
         public string? HealthCaseIdentifierValue { get; set; }
@@ -79,7 +79,7 @@ namespace eMedicalService.LegacyJavaWcfService
     /// <summary>
     /// Register medical examinations results request identity document type
     /// </summary>
-    public partial class registerMedicalExaminationsResultsRequestIdentityDocumentType
+    public class registerMedicalExaminationsResultsRequestIdentityDocumentType
     {
         [JsonPropertyName("DocumentTypeCode")]
         public string? DocumentTypeCode { get; set; }
@@ -160,7 +160,7 @@ namespace eMedicalService.LegacyJavaWcfService
     /// <summary>
     /// Cached unstructured date type
     /// </summary>
-    public partial class cachedUnstructuredDateType
+    public class cachedUnstructuredDateType
     {
         [JsonPropertyName("UnstructuredYear")]
         public string? UnstructuredYear { get; set; }
@@ -175,7 +175,7 @@ namespace eMedicalService.LegacyJavaWcfService
     /// <summary>
     /// Cached unstructured birth year type
     /// </summary>
-    public partial class cachedUnstructuredBirthYearType
+    public class cachedUnstructuredBirthYearType
     {
         [JsonPropertyName("UnstructuredYear")]
         public string? UnstructuredYear { get; set; }
@@ -184,7 +184,7 @@ namespace eMedicalService.LegacyJavaWcfService
     /// <summary>
     /// Cached unstructured birth month type
     /// </summary>
-    public partial class cachedUnstructuredBirthMonthType
+    public class cachedUnstructuredBirthMonthType
     {
         [JsonPropertyName("UnstructuredMonth")]
         public string? UnstructuredMonth { get; set; }
@@ -193,7 +193,7 @@ namespace eMedicalService.LegacyJavaWcfService
     /// <summary>
     /// Cached unstructured birth day type
     /// </summary>
-    public partial class cachedUnstructuredBirthDayType
+    public class cachedUnstructuredBirthDayType
     {
         [JsonPropertyName("UnstructuredDay")]
         public string? UnstructuredDay { get; set; }
@@ -202,7 +202,7 @@ namespace eMedicalService.LegacyJavaWcfService
     /// <summary>
     /// Cached unstructured date time type
     /// </summary>
-    public partial class cachedUnstructuredDateTimeType
+    public class cachedUnstructuredDateTimeType
     {
         [JsonPropertyName("UnstructuredYear")]
         public string? UnstructuredYear { get; set; }
@@ -229,7 +229,7 @@ namespace eMedicalService.LegacyJavaWcfService
     /// The Item property can be deserialized as either healthPhotoAttachedMsgType (if PersonImage is present)
     /// or healthPhotoNotAttachedMsgType (if CannotAttachReason is present)
     /// </summary>
-    public partial class healthFacialImageMsgType
+    public class healthFacialImageMsgType
     {
         /// <summary>
         /// Can be healthPhotoAttachedMsgType or healthPhotoNotAttachedMsgType
@@ -274,7 +274,7 @@ namespace eMedicalService.LegacyJavaWcfService
     /// <summary>
     /// Health photo attached message type
     /// </summary>
-    public partial class healthPhotoAttachedMsgType
+    public class healthPhotoAttachedMsgType
     {
         [JsonPropertyName("PersonImage")]
         public byte[]? PersonImage { get; set; }
@@ -283,7 +283,7 @@ namespace eMedicalService.LegacyJavaWcfService
     /// <summary>
     /// Health photo not attached message type
     /// </summary>
-    public partial class healthPhotoNotAttachedMsgType
+    public class healthPhotoNotAttachedMsgType
     {
         [JsonPropertyName("CannotAttachReason")]
         public string? CannotAttachReason { get; set; }
@@ -295,7 +295,7 @@ namespace eMedicalService.LegacyJavaWcfService
     /// <summary>
     /// Health case detail form type
     /// </summary>
-    public partial class healthCaseDetailFormType
+    public class healthCaseDetailFormType
     {
         [JsonPropertyName("HealthFormMsg")]
         public healthFormMsgType? HealthFormMsg { get; set; }
@@ -307,7 +307,7 @@ namespace eMedicalService.LegacyJavaWcfService
     /// The Item property can be deserialized as either healthFormExcDCMsgType (if HealthSectionExcDCMsg is present)
     /// or healthFormIncDCMsgType (if HealthSectionIncDCMsg is present)
     /// </summary>
-    public partial class healthFormMsgType
+    public class healthFormMsgType
     {
         /// <summary>
         /// Can be healthFormExcDCMsgType or healthFormIncDCMsgType
@@ -352,7 +352,7 @@ namespace eMedicalService.LegacyJavaWcfService
     /// <summary>
     /// Health form excluding DC message type
     /// </summary>
-    public partial class healthFormExcDCMsgType
+    public class healthFormExcDCMsgType
     {
         [JsonPropertyName("FormCode")]
         public string? FormCode { get; set; }
@@ -370,7 +370,7 @@ namespace eMedicalService.LegacyJavaWcfService
     /// <summary>
     /// Health section excluding DC message type
     /// </summary>
-    public partial class healthSectionExcDCMsgType
+    public class healthSectionExcDCMsgType
     {
         [JsonPropertyName("SectionID")]
         public string? SectionID { get; set; }
@@ -394,7 +394,7 @@ namespace eMedicalService.LegacyJavaWcfService
     /// <summary>
     /// Health question excluding DC message type
     /// </summary>
-    public partial class healthQuestionExcDCMsgType
+    public class healthQuestionExcDCMsgType
     {
         [JsonPropertyName("QuestionID")]
         public string? QuestionID { get; set; }
@@ -418,7 +418,7 @@ namespace eMedicalService.LegacyJavaWcfService
     /// <summary>
     /// Health answer excluding DC message type
     /// </summary>
-    public partial class healthAnswerExcDCMsgType
+    public class healthAnswerExcDCMsgType
     {
         [JsonPropertyName("AnswerTypeCode")]
         public string? AnswerTypeCode { get; set; }
@@ -458,7 +458,7 @@ namespace eMedicalService.LegacyJavaWcfService
     /// <summary>
     /// Health form including DC message type
     /// </summary>
-    public partial class healthFormIncDCMsgType
+    public class healthFormIncDCMsgType
     {
         [JsonPropertyName("FormCode")]
         public string? FormCode { get; set; }
@@ -476,7 +476,7 @@ namespace eMedicalService.LegacyJavaWcfService
     /// <summary>
     /// Health section including DC message type
     /// </summary>
-    public partial class healthSectionIncDCMsgType
+    public class healthSectionIncDCMsgType
     {
         [JsonPropertyName("SectionID")]
         public string? SectionID { get; set; }
@@ -500,7 +500,7 @@ namespace eMedicalService.LegacyJavaWcfService
     /// <summary>
     /// Health question including DC message type
     /// </summary>
-    public partial class healthQuestionIncDCMsgType
+    public class healthQuestionIncDCMsgType
     {
         [JsonPropertyName("QuestionID")]
         public string? QuestionID { get; set; }
@@ -524,7 +524,7 @@ namespace eMedicalService.LegacyJavaWcfService
     /// <summary>
     /// Health answer including DC message type
     /// </summary>
-    public partial class healthAnswerIncDCMsgType
+    public class healthAnswerIncDCMsgType
     {
         [JsonPropertyName("AnswerTypeCode")]
         public string? AnswerTypeCode { get; set; }
@@ -567,7 +567,7 @@ namespace eMedicalService.LegacyJavaWcfService
     /// <summary>
     /// Health doctor comment message type
     /// </summary>
-    public partial class healthDoctorCommentMsgType
+    public class healthDoctorCommentMsgType
     {
         [JsonPropertyName("ClinicID")]
         public string? ClinicID { get; set; }
@@ -585,7 +585,7 @@ namespace eMedicalService.LegacyJavaWcfService
     /// <summary>
     /// Health case attachment message type
     /// </summary>
-    public partial class healthCaseAttachmentMsgType
+    public class healthCaseAttachmentMsgType
     {
         [JsonPropertyName("HealthAttachmentIdentifierMsg")]
         public healthAttachmentIdentifierMsgType? HealthAttachmentIdentifierMsg { get; set; }
@@ -618,7 +618,7 @@ namespace eMedicalService.LegacyJavaWcfService
     /// <summary>
     /// Health attachment identifier message type
     /// </summary>
-    public partial class healthAttachmentIdentifierMsgType
+    public class healthAttachmentIdentifierMsgType
     {
         [JsonPropertyName("AttachmentIdentifier")]
         public string? AttachmentIdentifier { get; set; }
@@ -630,7 +630,7 @@ namespace eMedicalService.LegacyJavaWcfService
     /// <summary>
     /// Register medical examinations results request health requirement type
     /// </summary>
-    public partial class registerMedicalExaminationsResultsRequestHealthRequirementType
+    public class registerMedicalExaminationsResultsRequestHealthRequirementType
     {
         [JsonPropertyName("HealthRequirementMsg")]
         public healthRequirementMsgType? HealthRequirementMsg { get; set; }
@@ -645,7 +645,7 @@ namespace eMedicalService.LegacyJavaWcfService
     /// <summary>
     /// Health requirement message type
     /// </summary>
-    public partial class healthRequirementMsgType
+    public class healthRequirementMsgType
     {
         [JsonPropertyName("HealthRequirementType")]
         public string? HealthRequirementType { get; set; }
@@ -669,7 +669,7 @@ namespace eMedicalService.LegacyJavaWcfService
     /// <summary>
     /// Health requirement identifier message type
     /// </summary>
-    public partial class healthRequirementIdentifierMsgType
+    public class healthRequirementIdentifierMsgType
     {
         [JsonPropertyName("HealthRequirementIdentifier")]
         public string? HealthRequirementIdentifier { get; set; }
@@ -681,7 +681,7 @@ namespace eMedicalService.LegacyJavaWcfService
     /// <summary>
     /// Register medical examinations results request examination type
     /// </summary>
-    public partial class registerMedicalExaminationsResultsRequestExaminationType
+    public class registerMedicalExaminationsResultsRequestExaminationType
     {
         [JsonPropertyName("CachedCreatedTimestamp")]
         public cachedUnstructuredDateTimeType? CachedCreatedTimestamp { get; set; }
@@ -767,7 +767,7 @@ namespace eMedicalService.LegacyJavaWcfService
     /// <summary>
     /// Exam updated type
     /// </summary>
-    public partial class examUpdatedType
+    public class examUpdatedType
     {
         [JsonPropertyName("CachedCreatedTimestamp")]
         public cachedUnstructuredDateTimeType? CachedCreatedTimestamp { get; set; }
@@ -782,7 +782,7 @@ namespace eMedicalService.LegacyJavaWcfService
     /// <summary>
     /// Proxy submitting user type
     /// </summary>
-    public partial class proxySubmittingUserType
+    public class proxySubmittingUserType
     {
         [JsonPropertyName("UserId")]
         public string? UserId { get; set; }
@@ -794,7 +794,7 @@ namespace eMedicalService.LegacyJavaWcfService
     /// <summary>
     /// Health referral message type
     /// </summary>
-    public partial class healthReferralMsgType
+    public class healthReferralMsgType
     {
         [JsonPropertyName("ClinicName")]
         public string? ClinicName { get; set; }
@@ -813,7 +813,7 @@ namespace eMedicalService.LegacyJavaWcfService
     /// <summary>
     /// Health medical history message type
     /// </summary>
-    public partial class healthMedicalHistoryMsgType
+    public class healthMedicalHistoryMsgType
     {
         [JsonPropertyName("ClinicID")]
         public string? ClinicID { get; set; }
