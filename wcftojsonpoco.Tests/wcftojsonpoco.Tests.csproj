@@ -24,6 +24,9 @@
     <None Include="Domain.Contracts.Messages.notifyMedicalExaminationStatusRequestType.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="Domain.Contracts.Messages.deleteCachedHealthCaseRequestType.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
   <ItemGroup>

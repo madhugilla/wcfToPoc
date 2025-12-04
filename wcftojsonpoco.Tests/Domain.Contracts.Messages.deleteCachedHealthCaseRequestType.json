@@ -1,0 +1,19 @@
+{
+    "CorrelationID": "J70L104751881722252080475",
+    "HealthCaseIdentifierMsg": [
+        {
+            "HealthCaseIdentifier": {
+                "HealthCaseIdentifierValue": "J70L1124362538CAN",
+                "HealthCaseIdentifierType": "UCI"
+            },
+            "AssessmentTypeSpecified": false
+        },
+        {
+            "HealthCaseIdentifier": {
+                "HealthCaseIdentifierValue": "J70L22536799",
+                "HealthCaseIdentifierType": "IME"
+            },
+            "AssessmentTypeSpecified": false
+        }
+    ]
+}
