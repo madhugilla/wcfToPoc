@@ -1,0 +1,3333 @@
+{
+	"CorrelationID": "362291741331387601",
+	"HealthCaseIdentifierMsg": [
+		{
+			"HealthCaseIdentifier": {
+				"HealthCaseIdentifierValue": "U000010CAN",
+				"HealthCaseIdentifierType": "IME"
+			},
+			"AssessmentTypeSpecified": false
+		},
+		{
+			"HealthCaseIdentifier": {
+				"HealthCaseIdentifierValue": "UCI1705635497213",
+				"HealthCaseIdentifierType": "UCI"
+			},
+			"AssessmentTypeSpecified": false
+		},
+		{
+			"HealthCaseIdentifier": {
+				"HealthCaseIdentifierValue": "-",
+				"HealthCaseIdentifierType": "PREVIOUS_ITERATION_SUBMISSION_DATE"
+			},
+			"AssessmentTypeSpecified": false
+		}
+	],
+	"RegisterMedicalExaminationsResultsRequestIdentityDocument": {
+		"DocumentTypeCode": "01",
+		"DocumentType": null,
+		"DocumentNumber": "hehgeccieb",
+		"IssuingCountryName": "AFG",
+		"CachedIssueDate": {
+			"UnstructuredYear": "2021",
+			"UnstructuredMonth": "3",
+			"UnstructuredDay": "4"
+		},
+		"CachedExpiryDate": {
+			"UnstructuredYear": "2029",
+			"UnstructuredMonth": "1",
+			"UnstructuredDay": "19"
+		},
+		"IdentityDocumentedPresentedFlag": true,
+		"IdentityDocumentedPresentedFlagSpecified": true,
+		"IdentityConcernsFlag": false,
+		"IdentityConcernsFlagSpecified": true,
+		"IdentityConcernsComment": null
+	},
+	"HealthFacialImageMsg": {
+		"Item": {
+			"PersonImage": "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"
+		}
+	},
+	"HealthCaseDetailForm": {
+		"HealthFormMsg": {
+			"Item": {
+				"FormCode": "HLTH_CS",
+				"VersionNumber": "1",
+				"LanguageType": "en",
+				"HealthSectionExcDCMsg": [
+					{
+						"SectionID": "10005",
+						"SectionCode": "HLTH_CS_CAN_EN_SCTN1",
+						"SectionText": "Record Results",
+						"Sequence": "10",
+						"ChildSection": null,
+						"HealthQuestionExcDCMsg": [
+							{
+								"QuestionID": "-1",
+								"QuestionCode": "CLNT_PREFR_LNG",
+								"QuestionText": "Client's Preferred Language",
+								"Sequence": "200000",
+								"ChildQuestion": null,
+								"HealthAnswerExcDCMsg": {
+									"AnswerTypeCode": "CRT",
+									"AnswerMetadata": "EM_SPKN_LNG_CD",
+									"PractitionerID": null,
+									"UserName": "DOCtwo IOM",
+									"Value": "1201A",
+									"ValueDescription": "English",
+									"CommentText": null,
+									"CommentPractitionerID": null,
+									"AbnormalFlag": null,
+									"AbnormalFlagSpecified": true
+								}
+							},
+							{
+								"QuestionID": "10138",
+								"QuestionCode": "CLNT_CNFRMTION",
+								"QuestionText": "Client Confirmation",
+								"Sequence": "10",
+								"ChildQuestion": null,
+								"HealthAnswerExcDCMsg": {
+									"AnswerTypeCode": "BLN",
+									"AnswerMetadata": null,
+									"PractitionerID": null,
+									"UserName": "DOCtwo IOM",
+									"Value": "true",
+									"ValueDescription": null,
+									"CommentText": null,
+									"CommentPractitionerID": null,
+									"AbnormalFlag": null,
+									"AbnormalFlagSpecified": true
+								}
+							},
+							{
+								"QuestionID": "10907",
+								"QuestionCode": "CLNT_CNFRMTION_DT",
+								"QuestionText": "Client Confirmation Date",
+								"Sequence": "100015",
+								"ChildQuestion": null,
+								"HealthAnswerExcDCMsg": {
+									"AnswerTypeCode": "DT",
+									"AnswerMetadata": null,
+									"PractitionerID": null,
+									"UserName": "DOCtwo IOM",
+									"Value": "07-Mar-2025",
+									"ValueDescription": null,
+									"CommentText": null,
+									"CommentPractitionerID": null,
+									"AbnormalFlag": null,
+									"AbnormalFlagSpecified": true
+								}
+							},
+							{
+								"QuestionID": "10139",
+								"QuestionCode": "PRNT_GRDN_NM",
+								"QuestionText": "Name of parent/guardian",
+								"Sequence": "20",
+								"ChildQuestion": null,
+								"HealthAnswerExcDCMsg": {
+									"AnswerTypeCode": "TXT",
+									"AnswerMetadata": null,
+									"PractitionerID": null,
+									"UserName": "DOCtwo IOM",
+									"Value": "123",
+									"ValueDescription": null,
+									"CommentText": null,
+									"CommentPractitionerID": null,
+									"AbnormalFlag": null,
+									"AbnormalFlagSpecified": true
+								}
+							},
+							{
+								"QuestionID": "10140",
+								"QuestionCode": "RLNTSHP_TO_CLIENT",
+								"QuestionText": "Relationship to the client",
+								"Sequence": "30",
+								"ChildQuestion": null,
+								"HealthAnswerExcDCMsg": {
+									"AnswerTypeCode": "CRT",
+									"AnswerMetadata": "EM_RLSHP_CD",
+									"PractitionerID": null,
+									"UserName": "DOCtwo IOM",
+									"Value": "FR",
+									"ValueDescription": "Friend",
+									"CommentText": null,
+									"CommentPractitionerID": null,
+									"AbnormalFlag": null,
+									"AbnormalFlagSpecified": true
+								}
+							},
+							{
+								"QuestionID": "10909",
+								"QuestionCode": "CLNT_CNFRMTION_NM",
+								"QuestionText": "Client Confirmation Name",
+								"Sequence": "100012",
+								"ChildQuestion": null,
+								"HealthAnswerExcDCMsg": {
+									"AnswerTypeCode": "TXT",
+									"AnswerMetadata": null,
+									"PractitionerID": null,
+									"UserName": "DOCtwo IOM",
+									"Value": "Abbot DOCtwo IOM",
+									"ValueDescription": null,
+									"CommentText": null,
+									"CommentPractitionerID": null,
+									"AbnormalFlag": null,
+									"AbnormalFlagSpecified": true
+								}
+							},
+							{
+								"QuestionID": "-1",
+								"QuestionCode": "CLNT_PREFR_LNG",
+								"QuestionText": "Client's Preferred Language",
+								"Sequence": "200000",
+								"ChildQuestion": null,
+								"HealthAnswerExcDCMsg": {
+									"AnswerTypeCode": "CRT",
+									"AnswerMetadata": "EM_SPKN_LNG_CD",
+									"PractitionerID": null,
+									"UserName": "DOCtwo IOM",
+									"Value": "1201A",
+									"ValueDescription": "English",
+									"CommentText": null,
+									"CommentPractitionerID": null,
+									"AbnormalFlag": null,
+									"AbnormalFlagSpecified": true
+								}
+							}
+						]
+					}
+				]
+			}
+		}
+	},
+	"HealthCaseAttachmentMsg": [
+		{
+			"HealthAttachmentIdentifierMsg": {
+				"AttachmentIdentifier": "35920",
+				"AttachmentIdentifierType": "EMED"
+			},
+			"StatusCode": "SENT",
+			"DocumentType": "CDCL",
+			"SendingMethod": "EMAIL",
+			"FileName": null,
+			"Detail": "test signed",
+			"FileSize": null,
+			"MIMEContentType": null,
+			"CommentText": null
+		},
+		{
+			"HealthAttachmentIdentifierMsg": {
+				"AttachmentIdentifier": "35928",
+				"AttachmentIdentifierType": "EMED"
+			},
+			"StatusCode": "UPLD",
+			"DocumentType": "OTHR",
+			"SendingMethod": null,
+			"FileName": "EMED_GEN_RPT.pdf",
+			"Detail": null,
+			"FileSize": null,
+			"MIMEContentType": null,
+			"CommentText": "EMED_GEN_RPT"
+		}
+	],
+	"RegisterMedicalExaminationsResultsRequestHealthRequirement": [
+		{
+			"HealthRequirementMsg": {
+				"HealthRequirementType": "712",
+				"HealthRequirementDescription": null,
+				"HealthRequirementReason": null,
+				"CachedCreatedTimestamp": {
+					"UnstructuredYear": "2025",
+					"UnstructuredMonth": "3",
+					"UnstructuredDay": "7",
+					"UnstructuredHour": "6",
+					"UnstructuredMinute": "24",
+					"UnstructuredSecond": "31"
+				},
+				"HealthRequirementStatusCode": "FNLS",
+				"CachedStatusTimestamp": {
+					"UnstructuredYear": "2025",
+					"UnstructuredMonth": "3",
+					"UnstructuredDay": "7",
+					"UnstructuredHour": "6",
+					"UnstructuredMinute": "45",
+					"UnstructuredSecond": "55"
+				}
+			},
+			"HealthRequirementIdentifierMsg": null,
+			"RegisterMedicalExaminationsResultsRequestExamination": {
+				"CachedCreatedTimestamp": {
+					"UnstructuredYear": "2025",
+					"UnstructuredMonth": "3",
+					"UnstructuredDay": "7",
+					"UnstructuredHour": "6",
+					"UnstructuredMinute": "24",
+					"UnstructuredSecond": "31"
+				},
+				"CreateUserId": "e20909",
+				"CreateUsername": "DOCtwo IOM",
+				"CountryCode": "MIS",
+				"ClinicID": "TR123",
+				"ExamUpdated": null,
+				"CachedEffectiveStartDate": {
+					"UnstructuredYear": "2025",
+					"UnstructuredMonth": "3",
+					"UnstructuredDay": "7"
+				},
+				"CachedEffectiveEndDate": {
+					"UnstructuredYear": "2026",
+					"UnstructuredMonth": "3",
+					"UnstructuredDay": "7"
+				},
+				"ExaminationManuallyReceivedFlag": false,
+				"ExaminationManuallyReceivedFlagSpecified": true,
+				"DeclarationFlag": true,
+				"DeclarationFlagSpecified": true,
+				"ExaminationGrading": null,
+				"GradingPractitionerID": "decal",
+				"CommentText": "712",
+				"PractitionerID": "decal",
+				"ExaminationStatusReason": null,
+				"ExaminationStatusComment": null,
+				"ProxySubmittingUser": null,
+				"HealthReferralMsg": {
+					"ClinicName": "IOM CLINIC MALDIVES",
+					"ReferralIdentityConfirmationFlag": true,
+					"ReferralIdentityConfirmationFlagSpecified": true
+				},
+				"RegisterMedicalExaminationsResultsRequestIdentityDocument": null,
+				"HealthCaseAttachmentMsg": [
+					{
+						"HealthAttachmentIdentifierMsg": {
+							"AttachmentIdentifier": "35924",
+							"AttachmentIdentifierType": "EMED"
+						},
+						"StatusCode": "SENT",
+						"DocumentType": "SYPRP",
+						"SendingMethod": "EMAIL",
+						"FileName": null,
+						"Detail": "Syphilis Laboratory report",
+						"FileSize": null,
+						"MIMEContentType": null,
+						"CommentText": null
+					}
+				],
+				"HealthFormMsg": {
+					"Item": {
+						"FormCode": "712",
+						"VersionNumber": "1",
+						"LanguageType": "en",
+						"HealthSectionExcDCMsg": [
+							{
+								"SectionID": "10013",
+								"SectionCode": "712_CAN_EN_SCTN1",
+								"SectionText": "Record Results",
+								"Sequence": "10",
+								"ChildSection": null,
+								"HealthQuestionExcDCMsg": [
+									{
+										"QuestionID": "10231",
+										"QuestionCode": "CLNT_IDNTY_CNFRMD",
+										"QuestionText": "Was the client's identity confirmed?",
+										"Sequence": "10",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "BLN",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "true",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10232",
+										"QuestionCode": "SYPHLS_TST_RSLTS",
+										"QuestionText": "Syphilis test result",
+										"Sequence": "10",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "CRT",
+											"AnswerMetadata": "EM_EXAM_RSLT_NRR",
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "NR",
+											"ValueDescription": "Non-reactive",
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									}
+								]
+							}
+						]
+					}
+				},
+				"HealthMedicalHistoryMsg": null
+			}
+		},
+		{
+			"HealthRequirementMsg": {
+				"HealthRequirementType": "951",
+				"HealthRequirementDescription": null,
+				"HealthRequirementReason": null,
+				"CachedCreatedTimestamp": {
+					"UnstructuredYear": "2025",
+					"UnstructuredMonth": "3",
+					"UnstructuredDay": "7",
+					"UnstructuredHour": "6",
+					"UnstructuredMinute": "24",
+					"UnstructuredSecond": "31"
+				},
+				"HealthRequirementStatusCode": "FNLS",
+				"CachedStatusTimestamp": {
+					"UnstructuredYear": "2025",
+					"UnstructuredMonth": "3",
+					"UnstructuredDay": "7",
+					"UnstructuredHour": "6",
+					"UnstructuredMinute": "46",
+					"UnstructuredSecond": "21"
+				}
+			},
+			"HealthRequirementIdentifierMsg": null,
+			"RegisterMedicalExaminationsResultsRequestExamination": {
+				"CachedCreatedTimestamp": {
+					"UnstructuredYear": "2025",
+					"UnstructuredMonth": "3",
+					"UnstructuredDay": "7",
+					"UnstructuredHour": "6",
+					"UnstructuredMinute": "24",
+					"UnstructuredSecond": "31"
+				},
+				"CreateUserId": "e20909",
+				"CreateUsername": "DOCtwo IOM",
+				"CountryCode": "MIS",
+				"ClinicID": "TR123",
+				"ExamUpdated": null,
+				"CachedEffectiveStartDate": {
+					"UnstructuredYear": "2025",
+					"UnstructuredMonth": "3",
+					"UnstructuredDay": "7"
+				},
+				"CachedEffectiveEndDate": {
+					"UnstructuredYear": "2026",
+					"UnstructuredMonth": "3",
+					"UnstructuredDay": "7"
+				},
+				"ExaminationManuallyReceivedFlag": false,
+				"ExaminationManuallyReceivedFlagSpecified": true,
+				"DeclarationFlag": true,
+				"DeclarationFlagSpecified": true,
+				"ExaminationGrading": null,
+				"GradingPractitionerID": "decal",
+				"CommentText": null,
+				"PractitionerID": "decal",
+				"ExaminationStatusReason": null,
+				"ExaminationStatusComment": null,
+				"ProxySubmittingUser": null,
+				"HealthReferralMsg": null,
+				"RegisterMedicalExaminationsResultsRequestIdentityDocument": null,
+				"HealthCaseAttachmentMsg": null,
+				"HealthFormMsg": {
+					"Item": {
+						"FormCode": "951",
+						"VersionNumber": "1",
+						"LanguageType": "en",
+						"HealthSectionExcDCMsg": [
+							{
+								"SectionID": "10113",
+								"SectionCode": "951_CAN_EN_SCTN_RCRD_RSLTS",
+								"SectionText": "Record Results",
+								"Sequence": "10",
+								"ChildSection": null,
+								"HealthQuestionExcDCMsg": [
+									{
+										"QuestionID": "12097",
+										"QuestionCode": "CLNT_IDNTY_CNFRMD",
+										"QuestionText": "Was the client's identity confirmed?",
+										"Sequence": "200",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "BLN",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "true",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "12100",
+										"QuestionCode": "RMRKS",
+										"QuestionText": "Remarks",
+										"Sequence": "600",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "TXT",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "Test 951",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									}
+								]
+							},
+							{
+								"SectionID": "10139",
+								"SectionCode": "951_CAN_EN_EXMNR_DECL",
+								"SectionText": "Record Results",
+								"Sequence": "30",
+								"ChildSection": null,
+								"HealthQuestionExcDCMsg": [
+									{
+										"QuestionID": "13009",
+										"QuestionCode": "ANS_TO_DCLR",
+										"QuestionText": "Examiner Declaration",
+										"Sequence": "1000",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "BLN",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "true",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "13010",
+										"QuestionCode": "USR_MKNG_DCLR",
+										"QuestionText": "Examiner Name",
+										"Sequence": "2000",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "TXT",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "Abbot DOCtwo IOM",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "13011",
+										"QuestionCode": "DAT_OF_DCLR",
+										"QuestionText": "Declaration date",
+										"Sequence": "3000",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "TXT",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "07 Mar 2025",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									}
+								]
+							},
+							{
+								"SectionID": "10235",
+								"SectionCode": "951_CAN_EN_SCTN_DSS_MSLS_MMPS_RBLL",
+								"SectionText": "Record Results",
+								"Sequence": "720",
+								"ChildSection": null,
+								"HealthQuestionExcDCMsg": [
+									{
+										"QuestionID": "18461",
+										"QuestionCode": "APP_DCL_VCC_DSS",
+										"QuestionText": "Applicant declined all vaccines for this disease",
+										"Sequence": "90010",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "BLN",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "false",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "18462",
+										"QuestionCode": "VCN_NT_AVLBLE_DSS",
+										"QuestionText": "No vaccines for this disease are currently available at the Panel Site",
+										"Sequence": "91030",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "BLN",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "false",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									}
+								]
+							},
+							{
+								"SectionID": "10234",
+								"SectionCode": "951_CAN_EN_SCTN_DSS_DPHTHR_TTNS_PRTSSS_PL_HB_HPTTS_B",
+								"SectionText": "Record Results",
+								"Sequence": "710",
+								"ChildSection": null,
+								"HealthQuestionExcDCMsg": [
+									{
+										"QuestionID": "18459",
+										"QuestionCode": "APP_DCL_VCC_DSS",
+										"QuestionText": "Applicant declined all vaccines for this disease",
+										"Sequence": "90010",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "BLN",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "false",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "18460",
+										"QuestionCode": "VCN_NT_AVLBLE_DSS",
+										"QuestionText": "No vaccines for this disease are currently available at the Panel Site",
+										"Sequence": "91030",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "BLN",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "false",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									}
+								]
+							},
+							{
+								"SectionID": "10238",
+								"SectionCode": "951_CAN_EN_SCTN_DSS_HPTTS_B",
+								"SectionText": "Record Results",
+								"Sequence": "750",
+								"ChildSection": null,
+								"HealthQuestionExcDCMsg": [
+									{
+										"QuestionID": "18467",
+										"QuestionCode": "APP_DCL_VCC_DSS",
+										"QuestionText": "Applicant declined all vaccines for this disease",
+										"Sequence": "90010",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "BLN",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "false",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "18468",
+										"QuestionCode": "VCN_NT_AVLBLE_DSS",
+										"QuestionText": "No vaccines for this disease are currently available at the Panel Site",
+										"Sequence": "91030",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "BLN",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "false",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									}
+								]
+							},
+							{
+								"SectionID": "10236",
+								"SectionCode": "951_CAN_EN_SCTN_DSS_RTVRS",
+								"SectionText": "Record Results",
+								"Sequence": "730",
+								"ChildSection": null,
+								"HealthQuestionExcDCMsg": [
+									{
+										"QuestionID": "18463",
+										"QuestionCode": "APP_DCL_VCC_DSS",
+										"QuestionText": "Applicant declined all vaccines for this disease",
+										"Sequence": "90010",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "BLN",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "false",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "18464",
+										"QuestionCode": "VCN_NT_AVLBLE_DSS",
+										"QuestionText": "No vaccines for this disease are currently available at the Panel Site",
+										"Sequence": "91030",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "BLN",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "false",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									}
+								]
+							},
+							{
+								"SectionID": "10141",
+								"SectionCode": "951_CAN_EN_SCTN_DSS_CVD19",
+								"SectionText": "Record Results",
+								"Sequence": "700",
+								"ChildSection": null,
+								"HealthQuestionExcDCMsg": [
+									{
+										"QuestionID": "13017",
+										"QuestionCode": "VCN_NT_AVLBLE_DSS",
+										"QuestionText": "No vaccines for this disease are currently available at the Panel Site",
+										"Sequence": "91030",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "BLN",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "false",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "13015",
+										"QuestionCode": "APP_DCL_VCC_DSS",
+										"QuestionText": "Applicant declined all vaccines for this disease",
+										"Sequence": "90010",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "BLN",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "false",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									}
+								]
+							},
+							{
+								"SectionID": "10237",
+								"SectionCode": "951_CAN_EN_SCTN_DSS_HB",
+								"SectionText": "Record Results",
+								"Sequence": "740",
+								"ChildSection": null,
+								"HealthQuestionExcDCMsg": [
+									{
+										"QuestionID": "18465",
+										"QuestionCode": "APP_DCL_VCC_DSS",
+										"QuestionText": "Applicant declined all vaccines for this disease",
+										"Sequence": "90010",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "BLN",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "false",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "18466",
+										"QuestionCode": "VCN_NT_AVLBLE_DSS",
+										"QuestionText": "No vaccines for this disease are currently available at the Panel Site",
+										"Sequence": "91030",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "BLN",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "false",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									}
+								]
+							}
+						]
+					}
+				},
+				"HealthMedicalHistoryMsg": null
+			}
+		},
+		{
+			"HealthRequirementMsg": {
+				"HealthRequirementType": "704",
+				"HealthRequirementDescription": null,
+				"HealthRequirementReason": null,
+				"CachedCreatedTimestamp": {
+					"UnstructuredYear": "2025",
+					"UnstructuredMonth": "3",
+					"UnstructuredDay": "7",
+					"UnstructuredHour": "6",
+					"UnstructuredMinute": "24",
+					"UnstructuredSecond": "30"
+				},
+				"HealthRequirementStatusCode": "FNLS",
+				"CachedStatusTimestamp": {
+					"UnstructuredYear": "2025",
+					"UnstructuredMonth": "3",
+					"UnstructuredDay": "7",
+					"UnstructuredHour": "6",
+					"UnstructuredMinute": "47",
+					"UnstructuredSecond": "3"
+				}
+			},
+			"HealthRequirementIdentifierMsg": null,
+			"RegisterMedicalExaminationsResultsRequestExamination": {
+				"CachedCreatedTimestamp": {
+					"UnstructuredYear": "2025",
+					"UnstructuredMonth": "3",
+					"UnstructuredDay": "7",
+					"UnstructuredHour": "6",
+					"UnstructuredMinute": "24",
+					"UnstructuredSecond": "30"
+				},
+				"CreateUserId": "e20909",
+				"CreateUsername": "DOCtwo IOM",
+				"CountryCode": "MIS",
+				"ClinicID": "TR123",
+				"ExamUpdated": null,
+				"CachedEffectiveStartDate": {
+					"UnstructuredYear": "2025",
+					"UnstructuredMonth": "3",
+					"UnstructuredDay": "7"
+				},
+				"CachedEffectiveEndDate": {
+					"UnstructuredYear": "2026",
+					"UnstructuredMonth": "3",
+					"UnstructuredDay": "7"
+				},
+				"ExaminationManuallyReceivedFlag": false,
+				"ExaminationManuallyReceivedFlagSpecified": true,
+				"DeclarationFlag": true,
+				"DeclarationFlagSpecified": true,
+				"ExaminationGrading": null,
+				"GradingPractitionerID": "decal",
+				"CommentText": "Tet704",
+				"PractitionerID": "decal",
+				"ExaminationStatusReason": null,
+				"ExaminationStatusComment": null,
+				"ProxySubmittingUser": null,
+				"HealthReferralMsg": {
+					"ClinicName": "IOM CLINIC MALDIVES",
+					"ReferralIdentityConfirmationFlag": true,
+					"ReferralIdentityConfirmationFlagSpecified": true
+				},
+				"RegisterMedicalExaminationsResultsRequestIdentityDocument": null,
+				"HealthCaseAttachmentMsg": [
+					{
+						"HealthAttachmentIdentifierMsg": {
+							"AttachmentIdentifier": "35925",
+							"AttachmentIdentifierType": "EMED"
+						},
+						"StatusCode": "SENT",
+						"DocumentType": "SRCR",
+						"SendingMethod": "EMAIL",
+						"FileName": null,
+						"Detail": "Serum Creatinine",
+						"FileSize": null,
+						"MIMEContentType": null,
+						"CommentText": null
+					}
+				],
+				"HealthFormMsg": {
+					"Item": {
+						"FormCode": "704",
+						"VersionNumber": "1",
+						"LanguageType": "en",
+						"HealthSectionExcDCMsg": [
+							{
+								"SectionID": "10043",
+								"SectionCode": "704_CAN_EN_SCTN1",
+								"SectionText": "Record Results",
+								"Sequence": "10",
+								"ChildSection": null,
+								"HealthQuestionExcDCMsg": [
+									{
+										"QuestionID": "10407",
+										"QuestionCode": "CLNT_IDNTY_CNFRMD",
+										"QuestionText": "Was the client's identity confirmed?",
+										"Sequence": "30",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "BLN",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "true",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10411",
+										"QuestionCode": "EXM_RSLT",
+										"QuestionText": "Exam results",
+										"Sequence": "70",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "CRT",
+											"AnswerMetadata": "EM_EXAM_RSLT_NORMALTY",
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "NRM",
+											"ValueDescription": "Normal",
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									}
+								]
+							}
+						]
+					}
+				},
+				"HealthMedicalHistoryMsg": null
+			}
+		},
+		{
+			"HealthRequirementMsg": {
+				"HealthRequirementType": "707",
+				"HealthRequirementDescription": null,
+				"HealthRequirementReason": null,
+				"CachedCreatedTimestamp": {
+					"UnstructuredYear": "2025",
+					"UnstructuredMonth": "3",
+					"UnstructuredDay": "7",
+					"UnstructuredHour": "6",
+					"UnstructuredMinute": "24",
+					"UnstructuredSecond": "30"
+				},
+				"HealthRequirementStatusCode": "FNLS",
+				"CachedStatusTimestamp": {
+					"UnstructuredYear": "2025",
+					"UnstructuredMonth": "3",
+					"UnstructuredDay": "7",
+					"UnstructuredHour": "6",
+					"UnstructuredMinute": "45",
+					"UnstructuredSecond": "2"
+				}
+			},
+			"HealthRequirementIdentifierMsg": null,
+			"RegisterMedicalExaminationsResultsRequestExamination": {
+				"CachedCreatedTimestamp": {
+					"UnstructuredYear": "2025",
+					"UnstructuredMonth": "3",
+					"UnstructuredDay": "7",
+					"UnstructuredHour": "6",
+					"UnstructuredMinute": "24",
+					"UnstructuredSecond": "31"
+				},
+				"CreateUserId": "e20909",
+				"CreateUsername": "DOCtwo IOM",
+				"CountryCode": "MIS",
+				"ClinicID": "TR123",
+				"ExamUpdated": null,
+				"CachedEffectiveStartDate": {
+					"UnstructuredYear": "2025",
+					"UnstructuredMonth": "3",
+					"UnstructuredDay": "7"
+				},
+				"CachedEffectiveEndDate": {
+					"UnstructuredYear": "2026",
+					"UnstructuredMonth": "3",
+					"UnstructuredDay": "7"
+				},
+				"ExaminationManuallyReceivedFlag": false,
+				"ExaminationManuallyReceivedFlagSpecified": true,
+				"DeclarationFlag": true,
+				"DeclarationFlagSpecified": true,
+				"ExaminationGrading": null,
+				"GradingPractitionerID": "decal",
+				"CommentText": "Test 707",
+				"PractitionerID": "decal",
+				"ExaminationStatusReason": null,
+				"ExaminationStatusComment": null,
+				"ProxySubmittingUser": null,
+				"HealthReferralMsg": {
+					"ClinicName": "IOM CLINIC MALDIVES",
+					"ReferralIdentityConfirmationFlag": true,
+					"ReferralIdentityConfirmationFlagSpecified": true
+				},
+				"RegisterMedicalExaminationsResultsRequestIdentityDocument": null,
+				"HealthCaseAttachmentMsg": [
+					{
+						"HealthAttachmentIdentifierMsg": {
+							"AttachmentIdentifier": "35923",
+							"AttachmentIdentifierType": "EMED"
+						},
+						"StatusCode": "SENT",
+						"DocumentType": "HIVT",
+						"SendingMethod": "EMAIL",
+						"FileName": null,
+						"Detail": "HIV Test Report",
+						"FileSize": null,
+						"MIMEContentType": null,
+						"CommentText": null
+					}
+				],
+				"HealthFormMsg": {
+					"Item": {
+						"FormCode": "707",
+						"VersionNumber": "1",
+						"LanguageType": "en",
+						"HealthSectionExcDCMsg": [
+							{
+								"SectionID": "10014",
+								"SectionCode": "707_CAN_SCTN1",
+								"SectionText": "Record Results",
+								"Sequence": "10",
+								"ChildSection": null,
+								"HealthQuestionExcDCMsg": [
+									{
+										"QuestionID": "10234",
+										"QuestionCode": "CLNT_IDNTY_CNFRMD",
+										"QuestionText": "Was the client's identity confirmed?",
+										"Sequence": "10",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "BLN",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "true",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10235",
+										"QuestionCode": "HIV_TST_RSLTS",
+										"QuestionText": "HIV test result",
+										"Sequence": "10",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "CRT",
+											"AnswerMetadata": "EM_EXAM_RSLT_NRR",
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "NR",
+											"ValueDescription": "Non-reactive",
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									}
+								]
+							}
+						]
+					}
+				},
+				"HealthMedicalHistoryMsg": null
+			}
+		},
+		{
+			"HealthRequirementMsg": {
+				"HealthRequirementType": "948",
+				"HealthRequirementDescription": null,
+				"HealthRequirementReason": null,
+				"CachedCreatedTimestamp": {
+					"UnstructuredYear": "2024",
+					"UnstructuredMonth": "1",
+					"UnstructuredDay": "19",
+					"UnstructuredHour": "3",
+					"UnstructuredMinute": "38",
+					"UnstructuredSecond": "17"
+				},
+				"HealthRequirementStatusCode": "FNLS",
+				"CachedStatusTimestamp": {
+					"UnstructuredYear": "2025",
+					"UnstructuredMonth": "3",
+					"UnstructuredDay": "7",
+					"UnstructuredHour": "6",
+					"UnstructuredMinute": "47",
+					"UnstructuredSecond": "40"
+				}
+			},
+			"HealthRequirementIdentifierMsg": {
+				"HealthRequirementIdentifier": "AUTO_TST_1705635497214",
+				"HealthRequirementIdentifierType": "GCMSID"
+			},
+			"RegisterMedicalExaminationsResultsRequestExamination": {
+				"CachedCreatedTimestamp": {
+					"UnstructuredYear": "2025",
+					"UnstructuredMonth": "3",
+					"UnstructuredDay": "6",
+					"UnstructuredHour": "8",
+					"UnstructuredMinute": "48",
+					"UnstructuredSecond": "16"
+				},
+				"CreateUserId": "e20909",
+				"CreateUsername": "DOCtwo IOM",
+				"CountryCode": "MIS",
+				"ClinicID": "TR123",
+				"ExamUpdated": null,
+				"CachedEffectiveStartDate": {
+					"UnstructuredYear": "2025",
+					"UnstructuredMonth": "3",
+					"UnstructuredDay": "7"
+				},
+				"CachedEffectiveEndDate": {
+					"UnstructuredYear": "2026",
+					"UnstructuredMonth": "3",
+					"UnstructuredDay": "7"
+				},
+				"ExaminationManuallyReceivedFlag": false,
+				"ExaminationManuallyReceivedFlagSpecified": true,
+				"DeclarationFlag": true,
+				"DeclarationFlagSpecified": true,
+				"ExaminationGrading": null,
+				"GradingPractitionerID": "decal",
+				"CommentText": null,
+				"PractitionerID": "decal",
+				"ExaminationStatusReason": null,
+				"ExaminationStatusComment": null,
+				"ProxySubmittingUser": null,
+				"HealthReferralMsg": null,
+				"RegisterMedicalExaminationsResultsRequestIdentityDocument": null,
+				"HealthCaseAttachmentMsg": [
+					{
+						"HealthAttachmentIdentifierMsg": {
+							"AttachmentIdentifier": "35926",
+							"AttachmentIdentifierType": "EMED"
+						},
+						"StatusCode": "SENT",
+						"DocumentType": "OTHR",
+						"SendingMethod": "EMAIL",
+						"FileName": null,
+						"Detail": "Test other",
+						"FileSize": null,
+						"MIMEContentType": null,
+						"CommentText": null
+					}
+				],
+				"HealthFormMsg": {
+					"Item": {
+						"FormCode": "948",
+						"VersionNumber": "1",
+						"LanguageType": "en",
+						"HealthSectionExcDCMsg": [
+							{
+								"SectionID": "10087",
+								"SectionCode": "948_CAN_SCTN1",
+								"SectionText": "Record Results",
+								"Sequence": "10",
+								"ChildSection": null,
+								"HealthQuestionExcDCMsg": [
+									{
+										"QuestionID": "10757",
+										"QuestionCode": "CLNT_IDNTY_CNFRMD",
+										"QuestionText": "Was the client's identity confirmed?",
+										"Sequence": "10",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "BLN",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "true",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10758",
+										"QuestionCode": "DS_TH_CLNT_H",
+										"QuestionText": "1. Does the client have any resettlement/special needs?",
+										"Sequence": "10",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "BLN",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "false",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10759",
+										"QuestionCode": "HRNG_MPRMNT",
+										"QuestionText": "2.1 Hearing Impairment",
+										"Sequence": "10",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "CRT",
+											"AnswerMetadata": "EM_EXAM_RSLT_REC_IMP",
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "HIMNO",
+											"ValueDescription": "No",
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10760",
+										"QuestionCode": "VSN_MPRMNT",
+										"QuestionText": "2.2 Vision Impairment",
+										"Sequence": "10",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "CRT",
+											"AnswerMetadata": "EM_EXAM_RSLT_REC_IMP",
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "HIMNO",
+											"ValueDescription": "No",
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10761",
+										"QuestionCode": "SPCH_MPRMNT",
+										"QuestionText": "2.3 Speech Impairment",
+										"Sequence": "10",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "CRT",
+											"AnswerMetadata": "EM_EXAM_RSLT_REC_IMP",
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "HIMNO",
+											"ValueDescription": "No",
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10762",
+										"QuestionCode": "CGNTV_MPRMNT",
+										"QuestionText": "2.4 Cognitive Impairment",
+										"Sequence": "10",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "CRT",
+											"AnswerMetadata": "EM_EXAM_RSLT_CGNT_IMPRMNT",
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "NO",
+											"ValueDescription": "No",
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10763",
+										"QuestionCode": "MBLTY_MPRMNT",
+										"QuestionText": "2.5 Mobility Impairment",
+										"Sequence": "10",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "BLN",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "false",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10764",
+										"QuestionCode": "OTHR_MPRMNT",
+										"QuestionText": "2.6 Other Impairment",
+										"Sequence": "10",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "BLN",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "false",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10765",
+										"QuestionCode": "ACTVTS_F_DLY",
+										"QuestionText": "2.7 Activities of daily living",
+										"Sequence": "10",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "CRT",
+											"AnswerMetadata": "EM_EXAM_RSLT_DAY_LIVG",
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "NDPDT",
+											"ValueDescription": "Independent",
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10767",
+										"QuestionCode": "SPCL_TRVL_RQ",
+										"QuestionText": "4. Special travel requirements?",
+										"Sequence": "10",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "CRT",
+											"AnswerMetadata": "EM_EXAM_RSLT_SPC_TRV_RQ",
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "NNE",
+											"ValueDescription": "None",
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10768",
+										"QuestionCode": "PSTRRVL_SRVC",
+										"QuestionText": "5. Post-arrival services required?",
+										"Sequence": "10",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "CRT",
+											"AnswerMetadata": "EM_EXAM_RSLT_PA_SRV_RQ",
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "NSRVRQ",
+											"ValueDescription": "No services required",
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10770",
+										"QuestionCode": "HSNG_ND_DLYC",
+										"QuestionText": "6. Housing and Daily Activities/Assistance Requirements?",
+										"Sequence": "10",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "CRT",
+											"AnswerMetadata": "EM_EXAM_RSLT_DAY_ASST",
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "NDPNDT",
+											"ValueDescription": "Fully independent, no assistance required",
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10771",
+										"QuestionCode": "D_Y_HV_NY_TH",
+										"QuestionText": "8. Do you have any other comment you would like to make in relation to this person's resettlement needs?",
+										"Sequence": "10",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "BLN",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "false",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10772",
+										"QuestionCode": "ANS_TO_DCLR",
+										"QuestionText": "Examiner declaration",
+										"Sequence": "10",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "BLN",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "true",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10773",
+										"QuestionCode": "USR_MKNG_DCLR",
+										"QuestionText": "User name of person making declaration",
+										"Sequence": "10",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "TXT",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "Abbot DOCtwo IOM",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10774",
+										"QuestionCode": "DAT_OF_DCLR",
+										"QuestionText": "Date that the declaration was made",
+										"Sequence": "10",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "TXT",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "07 Mar 2025",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									}
+								]
+							}
+						]
+					}
+				},
+				"HealthMedicalHistoryMsg": null
+			}
+		},
+		{
+			"HealthRequirementMsg": {
+				"HealthRequirementType": "502",
+				"HealthRequirementDescription": null,
+				"HealthRequirementReason": null,
+				"CachedCreatedTimestamp": {
+					"UnstructuredYear": "2025",
+					"UnstructuredMonth": "3",
+					"UnstructuredDay": "7",
+					"UnstructuredHour": "6",
+					"UnstructuredMinute": "24",
+					"UnstructuredSecond": "30"
+				},
+				"HealthRequirementStatusCode": "FNLS",
+				"CachedStatusTimestamp": {
+					"UnstructuredYear": "2025",
+					"UnstructuredMonth": "3",
+					"UnstructuredDay": "7",
+					"UnstructuredHour": "6",
+					"UnstructuredMinute": "34",
+					"UnstructuredSecond": "9"
+				}
+			},
+			"HealthRequirementIdentifierMsg": null,
+			"RegisterMedicalExaminationsResultsRequestExamination": {
+				"CachedCreatedTimestamp": {
+					"UnstructuredYear": "2025",
+					"UnstructuredMonth": "3",
+					"UnstructuredDay": "7",
+					"UnstructuredHour": "6",
+					"UnstructuredMinute": "24",
+					"UnstructuredSecond": "30"
+				},
+				"CreateUserId": "e20909",
+				"CreateUsername": "DOCtwo IOM",
+				"CountryCode": "MIS",
+				"ClinicID": "TR123",
+				"ExamUpdated": null,
+				"CachedEffectiveStartDate": {
+					"UnstructuredYear": "2025",
+					"UnstructuredMonth": "3",
+					"UnstructuredDay": "7"
+				},
+				"CachedEffectiveEndDate": {
+					"UnstructuredYear": "2026",
+					"UnstructuredMonth": "3",
+					"UnstructuredDay": "7"
+				},
+				"ExaminationManuallyReceivedFlag": false,
+				"ExaminationManuallyReceivedFlagSpecified": true,
+				"DeclarationFlag": true,
+				"DeclarationFlagSpecified": true,
+				"ExaminationGrading": "A",
+				"GradingPractitionerID": "decal",
+				"CommentText": null,
+				"PractitionerID": "decal",
+				"ExaminationStatusReason": null,
+				"ExaminationStatusComment": null,
+				"ProxySubmittingUser": null,
+				"HealthReferralMsg": null,
+				"RegisterMedicalExaminationsResultsRequestIdentityDocument": {
+					"DocumentTypeCode": "01",
+					"DocumentType": null,
+					"DocumentNumber": "hehgeccieb",
+					"IssuingCountryName": "AFG",
+					"CachedIssueDate": {
+						"UnstructuredYear": "2021",
+						"UnstructuredMonth": "3",
+						"UnstructuredDay": "4"
+					},
+					"CachedExpiryDate": {
+						"UnstructuredYear": "2029",
+						"UnstructuredMonth": "1",
+						"UnstructuredDay": "19"
+					},
+					"IdentityDocumentedPresentedFlag": true,
+					"IdentityDocumentedPresentedFlagSpecified": true,
+					"IdentityConcernsFlag": false,
+					"IdentityConcernsFlagSpecified": true,
+					"IdentityConcernsComment": null
+				},
+				"HealthCaseAttachmentMsg": [
+					{
+						"HealthAttachmentIdentifierMsg": {
+							"AttachmentIdentifier": "35922",
+							"AttachmentIdentifierType": "EMED"
+						},
+						"StatusCode": "SENT",
+						"DocumentType": "CHXI",
+						"SendingMethod": "EMAIL",
+						"FileName": null,
+						"Detail": "Chest X-ray Image",
+						"FileSize": null,
+						"MIMEContentType": null,
+						"CommentText": null
+					}
+				],
+				"HealthFormMsg": {
+					"Item": {
+						"FormCode": "502",
+						"VersionNumber": "1",
+						"LanguageType": "en",
+						"HealthSectionExcDCMsg": [
+							{
+								"SectionID": "10007",
+								"SectionCode": "502_CAN_EN_SCTN1",
+								"SectionText": "Record Results",
+								"Sequence": "10",
+								"ChildSection": null,
+								"HealthQuestionExcDCMsg": [
+									{
+										"QuestionID": "10853",
+										"QuestionCode": "X_RAY_DATE",
+										"QuestionText": "Date of x-ray",
+										"Sequence": "10",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "DT",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "07-Mar-2025",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10155",
+										"QuestionCode": "CHPRN_PRSNT",
+										"QuestionText": "Chaperone present",
+										"Sequence": "10",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "CRT",
+											"AnswerMetadata": "EM_CHAP_PRSNT",
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "NTRQD",
+											"ValueDescription": "No - not required",
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10158",
+										"QuestionCode": "EXPRGNANT",
+										"QuestionText": "Is the client pregnant?",
+										"Sequence": "10",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "BLN",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "false",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10161",
+										"QuestionCode": "AR_THR_STRNG",
+										"QuestionText": "Are there strong suspicions of active Tuberculosis (TB)?",
+										"Sequence": "10",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "BLN",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "false",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10162",
+										"QuestionCode": "SKLTN_ND_SFTT",
+										"QuestionText": "Skeleton and soft tissue",
+										"Sequence": "10",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "CRT",
+											"AnswerMetadata": "EM_EXAM_RSLT_NORMALTY",
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "NRM",
+											"ValueDescription": "Normal",
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10163",
+										"QuestionCode": "CRDC_SHDW",
+										"QuestionText": "Cardiac shadow",
+										"Sequence": "10",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "CRT",
+											"AnswerMetadata": "EM_EXAM_RSLT_NORMALTY",
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "NRM",
+											"ValueDescription": "Normal",
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10164",
+										"QuestionCode": "HLR_ND_LYMPHTC",
+										"QuestionText": "Hilar and lymphatic glands",
+										"Sequence": "10",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "CRT",
+											"AnswerMetadata": "EM_EXAM_RSLT_NORMALTY",
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "NRM",
+											"ValueDescription": "Normal",
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10165",
+										"QuestionCode": "HMDPHRGMS_ND",
+										"QuestionText": "Hemidiaphragms and costophrenic angles",
+										"Sequence": "10",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "CRT",
+											"AnswerMetadata": "EM_EXAM_RSLT_NORMALTY",
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "NRM",
+											"ValueDescription": "Normal",
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10166",
+										"QuestionCode": "LNG_FLDS",
+										"QuestionText": "Lung fields",
+										"Sequence": "10",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "CRT",
+											"AnswerMetadata": "EM_EXAM_RSLT_NORMALTY",
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "NRM",
+											"ValueDescription": "Normal",
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10167",
+										"QuestionCode": "VDNC_F_TBRC",
+										"QuestionText": "Evidence of Tuberculosis (TB)",
+										"Sequence": "10",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "CRT",
+											"AnswerMetadata": "EM_EXAM_RSLT_PRSNT",
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "ABS",
+											"ValueDescription": "Absent",
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10168",
+										"QuestionCode": "SNGL_FBRS_STRKBND",
+										"QuestionText": "Single fibrous streak/band/scar (1.1)",
+										"Sequence": "10",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "BLN",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "false",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10169",
+										"QuestionCode": "BNY_SLTS",
+										"QuestionText": "Bony islets (1.2)",
+										"Sequence": "10",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "BLN",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "false",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10170",
+										"QuestionCode": "PCL_PLRL_CPPNG",
+										"QuestionText": "Apical pleural capping with a smooth inferior border (<1cm, thick at all points) (2.1)",
+										"Sequence": "10",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "BLN",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "false",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10171",
+										"QuestionCode": "NLTRL_BLTRL_CST",
+										"QuestionText": "Unilateral or bilateral costophrenic angle blunting (below the horizontal) (2.2)",
+										"Sequence": "10",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "BLN",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "false",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10172",
+										"QuestionCode": "CLCFD_NDL_THH",
+										"QuestionText": "Calcified nodule(s) in the hilum/mediastinum with no pulmonary granulomas (2.3)",
+										"Sequence": "10",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "BLN",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "false",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10174",
+										"QuestionCode": "SLTRY_GRNLM_HLM",
+										"QuestionText": "Solitary Granuloma (<1cm and of any lobe) with an unremarkable hilum (3.1)",
+										"Sequence": "10",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "BLN",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "false",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10175",
+										"QuestionCode": "SLTRY_GRNLM_LYM",
+										"QuestionText": "Solitary Granuloma (<1cm and of any lobe) with calcified/enlarged hilar lymph nodes (3.2)",
+										"Sequence": "10",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "BLN",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "false",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10176",
+										"QuestionCode": "SNGL_MLTPL_CLCFDP",
+										"QuestionText": "Single/Multiple calcified pulmonary nodules/micro-nodules with distinct borders (3.3)",
+										"Sequence": "10",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "BLN",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "false",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10177",
+										"QuestionCode": "CLCFD_PLRL_LSNS",
+										"QuestionText": "Calcified pleural lesions (3.4)",
+										"Sequence": "10",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "BLN",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "false",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10178",
+										"QuestionCode": "CSTPHRNC_NGL_BLNT",
+										"QuestionText": "Costophrenic angle blunting (either side above the horizontal) (3.5)",
+										"Sequence": "10",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "BLN",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "false",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10179",
+										"QuestionCode": "NTBL_PCL_PLRL_CPP",
+										"QuestionText": "Notable apical pleural capping (rough or ragged inferior border and/or greater than or equals to 1cm thick at any point) (4.0)",
+										"Sequence": "10",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "BLN",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "false",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10180",
+										"QuestionCode": "PCL_FBRNDLR_FBRCL",
+										"QuestionText": "Apical fibro-nodular/fibrocalcific lesions or apical micro-calcifications (4.1)",
+										"Sequence": "10",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "BLN",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "false",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10181",
+										"QuestionCode": "MLTPL_SNGL_PLMNRY",
+										"QuestionText": "Multiple/single pulmonary nodules/micro-nodules (non-calcified or poorly defined) (4.2)",
+										"Sequence": "10",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "BLN",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "false",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10182",
+										"QuestionCode": "SLTD_HLR_R_MDSTNL",
+										"QuestionText": "Isolated hilar or mediastinal mass/lymphadenopathy (non-calcified) (4.3)",
+										"Sequence": "10",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "BLN",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "false",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10183",
+										"QuestionCode": "SNGL_MLTPL_PLMNRY",
+										"QuestionText": "Single/multiple pulmonary nodules/masses >= 1cm (4.4)",
+										"Sequence": "10",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "BLN",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "false",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10184",
+										"QuestionCode": "NNCLCFD_PLRL_FBRS",
+										"QuestionText": "Non-calcified pleural fibrosis and/or effusion (4.5)",
+										"Sequence": "10",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "BLN",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "false",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10185",
+										"QuestionCode": "NTRSTTL_FBRSS_PRN",
+										"QuestionText": "Interstitial fibrosis/parenchymal lung disease/acute pulmonary disease (4.6)",
+										"Sequence": "10",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "BLN",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "false",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10186",
+										"QuestionCode": "CVTTNG_LSN_FLF_LSN",
+										"QuestionText": "Any cavitating lesion or Fluffy or Soft lesions felt likely to represent active TB (4.7)",
+										"Sequence": "10",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "BLN",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "false",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10897",
+										"QuestionCode": "INTRPRTR_PRSNT",
+										"QuestionText": "Interpreter used?",
+										"Sequence": "10",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "CRT",
+											"AnswerMetadata": "EM_CHAP_PRSNT",
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "NTRQD",
+											"ValueDescription": "No - not required",
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10841",
+										"QuestionCode": "SPCL_FNDNGS_SLCTNN",
+										"QuestionText": "Special findings",
+										"Sequence": "10",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "TXT",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "NONE_PRESENT",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									}
+								]
+							}
+						]
+					}
+				},
+				"HealthMedicalHistoryMsg": null
+			}
+		},
+		{
+			"HealthRequirementMsg": {
+				"HealthRequirementType": "501",
+				"HealthRequirementDescription": null,
+				"HealthRequirementReason": null,
+				"CachedCreatedTimestamp": {
+					"UnstructuredYear": "2024",
+					"UnstructuredMonth": "1",
+					"UnstructuredDay": "19",
+					"UnstructuredHour": "3",
+					"UnstructuredMinute": "38",
+					"UnstructuredSecond": "17"
+				},
+				"HealthRequirementStatusCode": "FNLS",
+				"CachedStatusTimestamp": {
+					"UnstructuredYear": "2025",
+					"UnstructuredMonth": "3",
+					"UnstructuredDay": "7",
+					"UnstructuredHour": "7",
+					"UnstructuredMinute": "9",
+					"UnstructuredSecond": "47"
+				}
+			},
+			"HealthRequirementIdentifierMsg": {
+				"HealthRequirementIdentifier": "AUTO_TST_1705635497213",
+				"HealthRequirementIdentifierType": "GCMSID"
+			},
+			"RegisterMedicalExaminationsResultsRequestExamination": {
+				"CachedCreatedTimestamp": {
+					"UnstructuredYear": "2025",
+					"UnstructuredMonth": "3",
+					"UnstructuredDay": "6",
+					"UnstructuredHour": "8",
+					"UnstructuredMinute": "48",
+					"UnstructuredSecond": "25"
+				},
+				"CreateUserId": "e20909",
+				"CreateUsername": "DOCtwo IOM",
+				"CountryCode": "MIS",
+				"ClinicID": "TR123",
+				"ExamUpdated": null,
+				"CachedEffectiveStartDate": {
+					"UnstructuredYear": "2025",
+					"UnstructuredMonth": "3",
+					"UnstructuredDay": "7"
+				},
+				"CachedEffectiveEndDate": {
+					"UnstructuredYear": "2026",
+					"UnstructuredMonth": "3",
+					"UnstructuredDay": "7"
+				},
+				"ExaminationManuallyReceivedFlag": false,
+				"ExaminationManuallyReceivedFlagSpecified": true,
+				"DeclarationFlag": true,
+				"DeclarationFlagSpecified": true,
+				"ExaminationGrading": "A",
+				"GradingPractitionerID": "decal",
+				"CommentText": null,
+				"PractitionerID": "decal",
+				"ExaminationStatusReason": null,
+				"ExaminationStatusComment": null,
+				"ProxySubmittingUser": null,
+				"HealthReferralMsg": null,
+				"RegisterMedicalExaminationsResultsRequestIdentityDocument": {
+					"DocumentTypeCode": "01",
+					"DocumentType": null,
+					"DocumentNumber": "hehgeccieb",
+					"IssuingCountryName": "AFG",
+					"CachedIssueDate": {
+						"UnstructuredYear": "2021",
+						"UnstructuredMonth": "3",
+						"UnstructuredDay": "4"
+					},
+					"CachedExpiryDate": {
+						"UnstructuredYear": "2029",
+						"UnstructuredMonth": "1",
+						"UnstructuredDay": "19"
+					},
+					"IdentityDocumentedPresentedFlag": true,
+					"IdentityDocumentedPresentedFlagSpecified": true,
+					"IdentityConcernsFlag": false,
+					"IdentityConcernsFlagSpecified": true,
+					"IdentityConcernsComment": null
+				},
+				"HealthCaseAttachmentMsg": [
+					{
+						"HealthAttachmentIdentifierMsg": {
+							"AttachmentIdentifier": "35927",
+							"AttachmentIdentifierType": "EMED"
+						},
+						"StatusCode": "SENT",
+						"DocumentType": "MCRSC",
+						"SendingMethod": "EMAIL",
+						"FileName": null,
+						"Detail": "MR",
+						"FileSize": null,
+						"MIMEContentType": null,
+						"CommentText": null
+					}
+				],
+				"HealthFormMsg": {
+					"Item": {
+						"FormCode": "501",
+						"VersionNumber": "1",
+						"LanguageType": "en",
+						"HealthSectionExcDCMsg": [
+							{
+								"SectionID": "10003",
+								"SectionCode": "501_CAN_EN_SCTN1",
+								"SectionText": "Record Results",
+								"Sequence": "10",
+								"ChildSection": null,
+								"HealthQuestionExcDCMsg": [
+									{
+										"QuestionID": "10083",
+										"QuestionCode": "URIN_TST_DT",
+										"QuestionText": "Urinalysis Exam Date",
+										"Sequence": "110",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "DT",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "07-Mar-2025",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10084",
+										"QuestionCode": "URIN_TST_TYP",
+										"QuestionText": "Type of test",
+										"Sequence": "120",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "CRT",
+											"AnswerMetadata": "EM_EXAM_RSLT_URIN_TST_TYP",
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "DIPS",
+											"ValueDescription": "Dipstick",
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10085",
+										"QuestionCode": "URIN_BLD",
+										"QuestionText": "Blood",
+										"Sequence": "130",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "CRT",
+											"AnswerMetadata": "EM_EXAM_RSLT_URIN_DIPSTK",
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "NGTV",
+											"ValueDescription": "Negative",
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10086",
+										"QuestionCode": "URIN_PRTN",
+										"QuestionText": "Protein",
+										"Sequence": "140",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "CRT",
+											"AnswerMetadata": "EM_EXAM_RSLT_URIN_DIPSTK",
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "NGTV",
+											"ValueDescription": "Negative",
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10087",
+										"QuestionCode": "URIN_GLCS",
+										"QuestionText": "Glucose",
+										"Sequence": "150",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "CRT",
+											"AnswerMetadata": "EM_EXAM_RSLT_URIN_DIPSTK",
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "NGTV",
+											"ValueDescription": "Negative",
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10088",
+										"QuestionCode": "CRDVSCLR_SYS",
+										"QuestionText": "Cardiovascular system",
+										"Sequence": "160",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "CRT",
+											"AnswerMetadata": "EM_EXAM_RSLT_NORMALTY",
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "NRM",
+											"ValueDescription": "Normal",
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10089",
+										"QuestionCode": "RSPRTRY_SYS",
+										"QuestionText": "Respiratory system",
+										"Sequence": "170",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "CRT",
+											"AnswerMetadata": "EM_EXAM_RSLT_NORMALTY",
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "NRM",
+											"ValueDescription": "Normal",
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10090",
+										"QuestionCode": "NRVS_SYS",
+										"QuestionText": "Nervous system: Sequelae of stroke or cerebral palsy, other neurological disabilities",
+										"Sequence": "180",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "CRT",
+											"AnswerMetadata": "EM_EXAM_RSLT_NORMALTY",
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "NRM",
+											"ValueDescription": "Normal",
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10091",
+										"QuestionCode": "GASTRO_INTSTNL_SYS",
+										"QuestionText": "Gastrointestinal system",
+										"Sequence": "190",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "CRT",
+											"AnswerMetadata": "EM_EXAM_RSLT_NORMALTY",
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "NRM",
+											"ValueDescription": "Normal",
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10092",
+										"QuestionCode": "MSCLOSKLTL_SYS",
+										"QuestionText": "Musculoskeletal system (including mobility for all persons 60 or more years of age)",
+										"Sequence": "200",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "CRT",
+											"AnswerMetadata": "EM_EXAM_RSLT_NORMALTY",
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "NRM",
+											"ValueDescription": "Normal",
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10093",
+										"QuestionCode": "ENDCRN_SYS",
+										"QuestionText": "Endocrine system",
+										"Sequence": "210",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "CRT",
+											"AnswerMetadata": "EM_EXAM_RSLT_NORMALTY",
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "NRM",
+											"ValueDescription": "Normal",
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10094",
+										"QuestionCode": "MNTL_CGNTV_STS",
+										"QuestionText": "Mental and cognitive status",
+										"Sequence": "220",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "CRT",
+											"AnswerMetadata": "EM_EXAM_RSLT_NORMALTY",
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "NRM",
+											"ValueDescription": "Normal",
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10095",
+										"QuestionCode": "INTLLCTL_ABLTY",
+										"QuestionText": "Intellectual ability",
+										"Sequence": "230",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "CRT",
+											"AnswerMetadata": "EM_EXAM_RSLT_NORMALTY",
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "NRM",
+											"ValueDescription": "Normal",
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10096",
+										"QuestionCode": "EAR_NSE_THRT_MTH",
+										"QuestionText": "Ear/nose/throat/mouth",
+										"Sequence": "240",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "CRT",
+											"AnswerMetadata": "EM_EXAM_RSLT_NORMALTY",
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "NRM",
+											"ValueDescription": "Normal",
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10097",
+										"QuestionCode": "HEARING",
+										"QuestionText": "Hearing",
+										"Sequence": "250",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "CRT",
+											"AnswerMetadata": "EM_EXAM_RSLT_NORMALTY",
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "NRM",
+											"ValueDescription": "Normal",
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10099",
+										"QuestionCode": "SKN_LYMPH_NDS",
+										"QuestionText": "Skin and lymph nodes",
+										"Sequence": "270",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "CRT",
+											"AnswerMetadata": "EM_EXAM_RSLT_NORMALTY",
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "NRM",
+											"ValueDescription": "Normal",
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10100",
+										"QuestionCode": "BRST_EXMN",
+										"QuestionText": "Breast examination where clinically indicated",
+										"Sequence": "280",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "CRT",
+											"AnswerMetadata": "EM_EXAM_RSLT_NORMALTY_NA",
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "NRM",
+											"ValueDescription": "Normal",
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10101",
+										"QuestionCode": "MNTL_PHYSCL_CNDTNS",
+										"QuestionText": "Are there any physical or mental conditions which may prevent this person from attending a mainstream school, gaining full employment or living independently now or in the future?",
+										"Sequence": "290",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "BLN",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "false",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10102",
+										"QuestionCode": "EVDNC_DRUG_USE",
+										"QuestionText": "Evidence of drug taking (for example venous puncture marks)",
+										"Sequence": "300",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "CRT",
+											"AnswerMetadata": "EM_EXAM_RSLT_PRSNT",
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "ABS",
+											"ValueDescription": "Absent",
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10104",
+										"QuestionCode": "USR_MKNG_DCLR",
+										"QuestionText": "Declaration User",
+										"Sequence": "320",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "TXT",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "Abbot DOCtwo IOM",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10105",
+										"QuestionCode": "DAT_OF_DCLR",
+										"QuestionText": "Date of Declaration",
+										"Sequence": "330",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "TXT",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "07 Mar 2025",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10106",
+										"QuestionCode": "ANS_TO_DCLR",
+										"QuestionText": "I declare that this health examination report is a true and correct record of my findings",
+										"Sequence": "340",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "BLN",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "true",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10875",
+										"QuestionCode": "BMI",
+										"QuestionText": "Body Mass Index (BMI)",
+										"Sequence": "10",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "TXT",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "15",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10891",
+										"QuestionCode": "INTRPRTR_PRSNT",
+										"QuestionText": "Interpreter used?",
+										"Sequence": "10",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "CRT",
+											"AnswerMetadata": "EM_CHAP_PRSNT",
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "NTRQD",
+											"ValueDescription": "No - not required",
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10903",
+										"QuestionCode": "EYES_VIS_ACUITY",
+										"QuestionText": "Visual acuity with or without correction",
+										"Sequence": "350",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "CRT",
+											"AnswerMetadata": "EM_BR2_ADULT_VISUAL_ACUITY",
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "ALOE",
+											"ValueDescription": "At least one eye is 6/6, 6/9, 6/12 or 6/18",
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10066",
+										"QuestionCode": "CHPRN_PRSNT",
+										"QuestionText": "Chaperone present?",
+										"Sequence": "10",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "CRT",
+											"AnswerMetadata": "EM_CHAP_PRSNT",
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "NTRQD",
+											"ValueDescription": "No - not required",
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10069",
+										"QuestionCode": "HEIGHT",
+										"QuestionText": "Height",
+										"Sequence": "20",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "DEC",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "123",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10071",
+										"QuestionCode": "WEIGHT",
+										"QuestionText": "Weight",
+										"Sequence": "30",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "DEC",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "23",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10075",
+										"QuestionCode": "BP_SYSTOLIC",
+										"QuestionText": "Systolic",
+										"Sequence": "50",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "DEC",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "110",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10076",
+										"QuestionCode": "BP_DIASTOLIC",
+										"QuestionText": "Diastolic",
+										"Sequence": "60",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "DEC",
+											"AnswerMetadata": null,
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "60",
+											"ValueDescription": null,
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									},
+									{
+										"QuestionID": "10079",
+										"QuestionCode": "EYES_INCLDNG_FNDSCPY",
+										"QuestionText": "Eyes (including fundoscopy)",
+										"Sequence": "70",
+										"ChildQuestion": null,
+										"HealthAnswerExcDCMsg": {
+											"AnswerTypeCode": "CRT",
+											"AnswerMetadata": "EM_EXAM_RSLT_NORMALTY",
+											"PractitionerID": "decal",
+											"UserName": "DOCtwo IOM",
+											"Value": "NRM",
+											"ValueDescription": "Normal",
+											"CommentText": null,
+											"CommentPractitionerID": "decal",
+											"AbnormalFlag": false,
+											"AbnormalFlagSpecified": true
+										}
+									}
+								]
+							}
+						]
+					}
+				},
+				"HealthMedicalHistoryMsg": {
+					"ClinicID": "TR123",
+					"ClientDeclarationFlag": true,
+					"ClientDeclarationFlagSpecified": true,
+					"CommentText": "sadsa",
+					"HealthFormMsg": {
+						"Item": {
+							"FormCode": "MDCL_HSTRY",
+							"VersionNumber": "1",
+							"LanguageType": "en",
+							"HealthSectionIncDCMsg": [
+								{
+									"SectionID": "10004",
+									"SectionCode": "MDCL_HSTRY_CAN_EN_SCTN1",
+									"SectionText": "Record Results",
+									"Sequence": "10",
+									"ChildSection": null,
+									"HealthQuestionIncDCMsg": [
+										{
+											"QuestionID": "10119",
+											"QuestionCode": "TBTRAT",
+											"QuestionText": "Tuberculosis (TB), treatment for tuberculosis?",
+											"Sequence": "100010",
+											"ChildQuestion": null,
+											"HealthAnswerIncDCMsg": {
+												"AnswerTypeCode": "BLN",
+												"AnswerMetadata": null,
+												"PractitionerID": "P117466212421",
+												"UserName": "DOCtwo IOM",
+												"Value": "false",
+												"ValueDescription": null,
+												"CommentText": null,
+												"CommentPractitionerID": "P117466212421",
+												"AbnormalFlag": false,
+												"AbnormalFlagSpecified": true,
+												"HealthDoctorCommentMsg": null
+											}
+										},
+										{
+											"QuestionID": "10120",
+											"QuestionCode": "CLOSC",
+											"QuestionText": "Close household contact with Tuberculosis (TB)?",
+											"Sequence": "100020",
+											"ChildQuestion": null,
+											"HealthAnswerIncDCMsg": {
+												"AnswerTypeCode": "BLN",
+												"AnswerMetadata": null,
+												"PractitionerID": "P117466212421",
+												"UserName": "DOCtwo IOM",
+												"Value": "false",
+												"ValueDescription": null,
+												"CommentText": null,
+												"CommentPractitionerID": "P117466212421",
+												"AbnormalFlag": false,
+												"AbnormalFlagSpecified": true,
+												"HealthDoctorCommentMsg": null
+											}
+										},
+										{
+											"QuestionID": "10121",
+											"QuestionCode": "MTREA",
+											"QuestionText": "Prolonged medical treatment and/or repeated hospital admissions for any reason, including a major operation or psychiatric illness",
+											"Sequence": "100030",
+											"ChildQuestion": null,
+											"HealthAnswerIncDCMsg": {
+												"AnswerTypeCode": "BLN",
+												"AnswerMetadata": null,
+												"PractitionerID": "P117466212421",
+												"UserName": "DOCtwo IOM",
+												"Value": "false",
+												"ValueDescription": null,
+												"CommentText": null,
+												"CommentPractitionerID": "P117466212421",
+												"AbnormalFlag": false,
+												"AbnormalFlagSpecified": true,
+												"HealthDoctorCommentMsg": null
+											}
+										},
+										{
+											"QuestionID": "10122",
+											"QuestionCode": "PSYDI",
+											"QuestionText": "Psychological/Psychiatric Disorder (including major depression, bipolar disorder or schizophrenia)",
+											"Sequence": "100040",
+											"ChildQuestion": null,
+											"HealthAnswerIncDCMsg": {
+												"AnswerTypeCode": "BLN",
+												"AnswerMetadata": null,
+												"PractitionerID": "P117466212421",
+												"UserName": "DOCtwo IOM",
+												"Value": "false",
+												"ValueDescription": null,
+												"CommentText": null,
+												"CommentPractitionerID": "P117466212421",
+												"AbnormalFlag": false,
+												"AbnormalFlagSpecified": true,
+												"HealthDoctorCommentMsg": null
+											}
+										},
+										{
+											"QuestionID": "10123",
+											"QuestionCode": "HIVAB",
+											"QuestionText": "An abnormal or reactive HIV blood test",
+											"Sequence": "100050",
+											"ChildQuestion": null,
+											"HealthAnswerIncDCMsg": {
+												"AnswerTypeCode": "BLN",
+												"AnswerMetadata": null,
+												"PractitionerID": "P117466212421",
+												"UserName": "DOCtwo IOM",
+												"Value": "false",
+												"ValueDescription": null,
+												"CommentText": null,
+												"CommentPractitionerID": "P117466212421",
+												"AbnormalFlag": false,
+												"AbnormalFlagSpecified": true,
+												"HealthDoctorCommentMsg": null
+											}
+										},
+										{
+											"QuestionID": "10124",
+											"QuestionCode": "HEPBL",
+											"QuestionText": "An abnormal or reactive Hepatitis B or Hepatitis C blood test?",
+											"Sequence": "100060",
+											"ChildQuestion": null,
+											"HealthAnswerIncDCMsg": {
+												"AnswerTypeCode": "BLN",
+												"AnswerMetadata": null,
+												"PractitionerID": "P117466212421",
+												"UserName": "DOCtwo IOM",
+												"Value": "false",
+												"ValueDescription": null,
+												"CommentText": null,
+												"CommentPractitionerID": "P117466212421",
+												"AbnormalFlag": false,
+												"AbnormalFlagSpecified": true,
+												"HealthDoctorCommentMsg": null
+											}
+										},
+										{
+											"QuestionID": "10125",
+											"QuestionCode": "CNCER",
+											"QuestionText": "Cancer or Malignancy in the last 5 years",
+											"Sequence": "100070",
+											"ChildQuestion": null,
+											"HealthAnswerIncDCMsg": {
+												"AnswerTypeCode": "BLN",
+												"AnswerMetadata": null,
+												"PractitionerID": "P117466212421",
+												"UserName": "DOCtwo IOM",
+												"Value": "false",
+												"ValueDescription": null,
+												"CommentText": null,
+												"CommentPractitionerID": "P117466212421",
+												"AbnormalFlag": false,
+												"AbnormalFlagSpecified": true,
+												"HealthDoctorCommentMsg": null
+											}
+										},
+										{
+											"QuestionID": "10126",
+											"QuestionCode": "DIBTS",
+											"QuestionText": "Diabetes",
+											"Sequence": "100080",
+											"ChildQuestion": null,
+											"HealthAnswerIncDCMsg": {
+												"AnswerTypeCode": "BLN",
+												"AnswerMetadata": null,
+												"PractitionerID": "P117466212421",
+												"UserName": "DOCtwo IOM",
+												"Value": "false",
+												"ValueDescription": null,
+												"CommentText": null,
+												"CommentPractitionerID": "P117466212421",
+												"AbnormalFlag": false,
+												"AbnormalFlagSpecified": true,
+												"HealthDoctorCommentMsg": null
+											}
+										},
+										{
+											"QuestionID": "10127",
+											"QuestionCode": "HEART",
+											"QuestionText": "Heart condition including coronary disease, hypertension, valve or congenital disease",
+											"Sequence": "100090",
+											"ChildQuestion": null,
+											"HealthAnswerIncDCMsg": {
+												"AnswerTypeCode": "BLN",
+												"AnswerMetadata": null,
+												"PractitionerID": "P117466212421",
+												"UserName": "DOCtwo IOM",
+												"Value": "false",
+												"ValueDescription": null,
+												"CommentText": null,
+												"CommentPractitionerID": "P117466212421",
+												"AbnormalFlag": false,
+												"AbnormalFlagSpecified": true,
+												"HealthDoctorCommentMsg": null
+											}
+										},
+										{
+											"QuestionID": "10128",
+											"QuestionCode": "BLOOD",
+											"QuestionText": "Blood condition (including thalassemia)",
+											"Sequence": "100100",
+											"ChildQuestion": null,
+											"HealthAnswerIncDCMsg": {
+												"AnswerTypeCode": "BLN",
+												"AnswerMetadata": null,
+												"PractitionerID": "P117466212421",
+												"UserName": "DOCtwo IOM",
+												"Value": "false",
+												"ValueDescription": null,
+												"CommentText": null,
+												"CommentPractitionerID": "P117466212421",
+												"AbnormalFlag": false,
+												"AbnormalFlagSpecified": true,
+												"HealthDoctorCommentMsg": null
+											}
+										},
+										{
+											"QuestionID": "10129",
+											"QuestionCode": "KDNEY",
+											"QuestionText": "Kidney or Bladder Disease",
+											"Sequence": "100110",
+											"ChildQuestion": null,
+											"HealthAnswerIncDCMsg": {
+												"AnswerTypeCode": "BLN",
+												"AnswerMetadata": null,
+												"PractitionerID": "P117466212421",
+												"UserName": "DOCtwo IOM",
+												"Value": "false",
+												"ValueDescription": null,
+												"CommentText": null,
+												"CommentPractitionerID": "P117466212421",
+												"AbnormalFlag": false,
+												"AbnormalFlagSpecified": true,
+												"HealthDoctorCommentMsg": null
+											}
+										},
+										{
+											"QuestionID": "10130",
+											"QuestionCode": "DSBSY",
+											"QuestionText": "An ongoing physical or intellectual disability affecting your current or future ability to function independently or be able to work full-time (including autism or developmental delay)",
+											"Sequence": "100120",
+											"ChildQuestion": null,
+											"HealthAnswerIncDCMsg": {
+												"AnswerTypeCode": "BLN",
+												"AnswerMetadata": null,
+												"PractitionerID": "P117466212421",
+												"UserName": "DOCtwo IOM",
+												"Value": "false",
+												"ValueDescription": null,
+												"CommentText": null,
+												"CommentPractitionerID": "P117466212421",
+												"AbnormalFlag": false,
+												"AbnormalFlagSpecified": true,
+												"HealthDoctorCommentMsg": null
+											}
+										},
+										{
+											"QuestionID": "10131",
+											"QuestionCode": "ADCTN",
+											"QuestionText": "An addiction to drugs or alcohol",
+											"Sequence": "100130",
+											"ChildQuestion": null,
+											"HealthAnswerIncDCMsg": {
+												"AnswerTypeCode": "BLN",
+												"AnswerMetadata": null,
+												"PractitionerID": "P117466212421",
+												"UserName": "DOCtwo IOM",
+												"Value": "false",
+												"ValueDescription": null,
+												"CommentText": null,
+												"CommentPractitionerID": "P117466212421",
+												"AbnormalFlag": false,
+												"AbnormalFlagSpecified": true,
+												"HealthDoctorCommentMsg": null
+											}
+										},
+										{
+											"QuestionID": "10132",
+											"QuestionCode": "TKPRSC",
+											"QuestionText": "Are you taking any prescribed pills or medication (excluding oral contraceptives, over-the counter medication and natural supplements)? Please list",
+											"Sequence": "100140",
+											"ChildQuestion": null,
+											"HealthAnswerIncDCMsg": {
+												"AnswerTypeCode": "BLN",
+												"AnswerMetadata": null,
+												"PractitionerID": "P117466212421",
+												"UserName": "DOCtwo IOM",
+												"Value": "false",
+												"ValueDescription": null,
+												"CommentText": null,
+												"CommentPractitionerID": "P117466212421",
+												"AbnormalFlag": false,
+												"AbnormalFlagSpecified": true,
+												"HealthDoctorCommentMsg": null
+											}
+										},
+										{
+											"QuestionID": "10133",
+											"QuestionCode": "RPRGNNT",
+											"QuestionText": "Are you pregnant?",
+											"Sequence": "100150",
+											"ChildQuestion": null,
+											"HealthAnswerIncDCMsg": {
+												"AnswerTypeCode": "BLN",
+												"AnswerMetadata": null,
+												"PractitionerID": "P117466212421",
+												"UserName": "DOCtwo IOM",
+												"Value": "false",
+												"ValueDescription": null,
+												"CommentText": null,
+												"CommentPractitionerID": "P117466212421",
+												"AbnormalFlag": false,
+												"AbnormalFlagSpecified": true,
+												"HealthDoctorCommentMsg": null
+											}
+										},
+										{
+											"QuestionID": "10134",
+											"QuestionCode": "CLNT_DCLRN",
+											"QuestionText": "Client Declaration",
+											"Sequence": "200010",
+											"ChildQuestion": null,
+											"HealthAnswerIncDCMsg": {
+												"AnswerTypeCode": "BLN",
+												"AnswerMetadata": null,
+												"PractitionerID": "P117466212421",
+												"UserName": "DOCtwo IOM",
+												"Value": "true",
+												"ValueDescription": null,
+												"CommentText": null,
+												"CommentPractitionerID": "P117466212421",
+												"AbnormalFlag": false,
+												"AbnormalFlagSpecified": true,
+												"HealthDoctorCommentMsg": null
+											}
+										},
+										{
+											"QuestionID": "10135",
+											"QuestionCode": "PARENT_NM",
+											"QuestionText": "Name of parent/guardian",
+											"Sequence": "200030",
+											"ChildQuestion": null,
+											"HealthAnswerIncDCMsg": {
+												"AnswerTypeCode": "TXT",
+												"AnswerMetadata": null,
+												"PractitionerID": "P117466212421",
+												"UserName": "DOCtwo IOM",
+												"Value": "adasd",
+												"ValueDescription": null,
+												"CommentText": null,
+												"CommentPractitionerID": "P117466212421",
+												"AbnormalFlag": false,
+												"AbnormalFlagSpecified": true,
+												"HealthDoctorCommentMsg": null
+											}
+										},
+										{
+											"QuestionID": "10136",
+											"QuestionCode": "RLTNSHP",
+											"QuestionText": "Relationship to the client",
+											"Sequence": "200020",
+											"ChildQuestion": null,
+											"HealthAnswerIncDCMsg": {
+												"AnswerTypeCode": "CRT",
+												"AnswerMetadata": "EM_RLSHP_CD",
+												"PractitionerID": "P117466212421",
+												"UserName": "DOCtwo IOM",
+												"Value": "GR",
+												"ValueDescription": "Guardian",
+												"CommentText": null,
+												"CommentPractitionerID": "P117466212421",
+												"AbnormalFlag": false,
+												"AbnormalFlagSpecified": true,
+												"HealthDoctorCommentMsg": null
+											}
+										},
+										{
+											"QuestionID": "10137",
+											"QuestionCode": "DR_DCLRN",
+											"QuestionText": "Doctor Declaration",
+											"Sequence": "200040",
+											"ChildQuestion": null,
+											"HealthAnswerIncDCMsg": {
+												"AnswerTypeCode": "BLN",
+												"AnswerMetadata": null,
+												"PractitionerID": "P117466212421",
+												"UserName": "DOCtwo IOM",
+												"Value": "true",
+												"ValueDescription": null,
+												"CommentText": null,
+												"CommentPractitionerID": "P117466212421",
+												"AbnormalFlag": false,
+												"AbnormalFlagSpecified": true,
+												"HealthDoctorCommentMsg": null
+											}
+										}
+									]
+								}
+							]
+						}
+					}
+				}
+			}
+		}
+	],
+	"ProcessingUnit": null
+}
