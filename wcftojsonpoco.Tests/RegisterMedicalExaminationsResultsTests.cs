@@ -65,10 +65,19 @@ public class RegisterMedicalExaminationsResultsTests
         Assert.Equal("1", identityDoc.CachedExpiryDate.UnstructuredMonth);
         Assert.Equal("19", identityDoc.CachedExpiryDate.UnstructuredDay);
 
+        // Assert - Identity Document properties not in JSON (should be null/default)
+        Assert.Null(identityDoc.GivenName);
+        Assert.Null(identityDoc.FamilyName);
+        Assert.Equal(sexTypeType.Item, identityDoc.SexType); // Default enum value (Item = unspecified/dash)
+        Assert.Null(identityDoc.CachedBirthYear);
+        Assert.Null(identityDoc.CachedBirthMonth);
+        Assert.Null(identityDoc.CachedBirthDay);
+        Assert.Null(identityDoc.BirthCountryCode);
+
         // Assert - HealthFacialImageMsg
         Assert.NotNull(deserialized.HealthFacialImageMsg);
-        // Note: The JSON has "Item" but the class uses HealthPhotoAttachedMsg
-        // This might be a polymorphic deserialization issue that needs investigation
+        // The JSON structure has "Item" with "PersonImage" - polymorphic deserialization
+        // Verify the object is present but may need custom converter for full validation
 
         // Assert - HealthCaseDetailForm
         Assert.NotNull(deserialized.HealthCaseDetailForm);
@@ -149,11 +158,32 @@ public class RegisterMedicalExaminationsResultsTests
         var fifthRequirement = deserialized.RegisterMedicalExaminationsResultsRequestHealthRequirement[4];
         Assert.NotNull(fifthRequirement.HealthRequirementIdentifierMsg);
         Assert.Equal("GCMSID", fifthRequirement.HealthRequirementIdentifierMsg.HealthRequirementIdentifierType);
+        Assert.NotNull(fifthRequirement.HealthRequirementMsg);
+        Assert.NotNull(fifthRequirement.RegisterMedicalExaminationsResultsRequestExamination);
+
+        // Assert - Second requirement to ensure variety
+        var secondRequirement = deserialized.RegisterMedicalExaminationsResultsRequestHealthRequirement[1];
+        Assert.NotNull(secondRequirement.HealthRequirementMsg);
+        Assert.Null(secondRequirement.HealthRequirementIdentifierMsg);
+        Assert.NotNull(secondRequirement.RegisterMedicalExaminationsResultsRequestExamination);
+
+        // Assert - Third requirement
+        var thirdRequirement = deserialized.RegisterMedicalExaminationsResultsRequestHealthRequirement[2];
+        Assert.NotNull(thirdRequirement.HealthRequirementMsg);
+        Assert.Null(thirdRequirement.HealthRequirementIdentifierMsg);
+        Assert.NotNull(thirdRequirement.RegisterMedicalExaminationsResultsRequestExamination);
 
         // Assert - Seventh requirement also has HealthRequirementIdentifierMsg
         var seventhRequirement = deserialized.RegisterMedicalExaminationsResultsRequestHealthRequirement[6];
         Assert.NotNull(seventhRequirement.HealthRequirementIdentifierMsg);
         Assert.Equal("GCMSID", seventhRequirement.HealthRequirementIdentifierMsg.HealthRequirementIdentifierType);
+        Assert.NotNull(seventhRequirement.HealthRequirementMsg);
+        Assert.NotNull(seventhRequirement.RegisterMedicalExaminationsResultsRequestExamination);
+
+        // Assert - All three HealthCaseIdentifierMsg have null AssessmentType
+        Assert.Null(firstIdentifier.AssessmentType);
+        Assert.Null(secondIdentifier.AssessmentType);
+        Assert.Null(thirdIdentifier.AssessmentType);
     }
 
     [Fact]
