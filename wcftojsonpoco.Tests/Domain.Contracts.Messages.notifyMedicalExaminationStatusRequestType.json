@@ -1,0 +1,71 @@
+{
+    "CorrelationID": "1128291741250896388",
+    "HealthCaseIdentifierMsg": [
+        {
+            "HealthCaseIdentifier": {
+                "HealthCaseIdentifierValue": "U000010CAN",
+                "HealthCaseIdentifierType": "IME"
+            },
+            "AssessmentTypeSpecified": false
+        },
+        {
+            "HealthCaseIdentifier": {
+                "HealthCaseIdentifierValue": "UCI1705635497213",
+                "HealthCaseIdentifierType": "UCI"
+            },
+            "AssessmentTypeSpecified": false
+        },
+        {
+            "HealthCaseIdentifier": {
+                "HealthCaseIdentifierValue": "-",
+                "HealthCaseIdentifierType": "PREVIOUS_ITERATION_SUBMISSION_DATE"
+            },
+            "AssessmentTypeSpecified": false
+        }
+    ],
+    "CachedCreationDate": {
+        "UnstructuredYear": "2025",
+        "UnstructuredMonth": "3",
+        "UnstructuredDay": "6"
+    },
+    "Item": {
+        "HealthRequirementType": "501",
+        "CachedCreatedTimestamp": {
+            "UnstructuredYear": "2024",
+            "UnstructuredMonth": "1",
+            "UnstructuredDay": "19",
+            "UnstructuredHour": "3",
+            "UnstructuredMinute": "38",
+            "UnstructuredSecond": "17"
+        },
+        "HealthRequirementStatusCode": "REQR",
+        "CachedStatusTimestamp": {
+            "UnstructuredYear": "2025",
+            "UnstructuredMonth": "3",
+            "UnstructuredDay": "6",
+            "UnstructuredHour": "8",
+            "UnstructuredMinute": "48",
+            "UnstructuredSecond": "16"
+        },
+        "HealthRequirementIdentifierMsg": {
+            "HealthRequirementIdentifier": "AUTO_TST_1705635497213",
+            "HealthRequirementIdentifierType": "GCMSID"
+        },
+        "NotifyMedicalExaminationStatusRequestExamination": {
+            "ExaminationStatus": "REQR",
+            "CachedStatusTimestamp": {
+                "UnstructuredYear": "2024",
+                "UnstructuredMonth": "1",
+                "UnstructuredDay": "19",
+                "UnstructuredHour": "3",
+                "UnstructuredMinute": "38",
+                "UnstructuredSecond": "17"
+            },
+            "CachedExpectedDeliveryDate": null,
+            "ClinicID": "TR123",
+            "UserId": "DOCtwo IOM",
+            "UserName": null,
+            "CommentText": null
+        }
+    }
+}
