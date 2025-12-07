@@ -49,7 +49,7 @@ public class NotifyMedicalExaminationStatusRequestTests
         var mismatches = new List<string>();
 
         // Extract all fields from both JSONs
-        ExtractAllFieldsForComparison(originalJsonDoc.RootElement, reserializedJsonDoc.RootElement, "$", fieldComparisons, mismatches);
+        JsonTestHelper.ExtractAllFieldsForComparison(originalJsonDoc.RootElement, reserializedJsonDoc.RootElement, "$", fieldComparisons, mismatches);
 
         // Build output content
         var sb = new System.Text.StringBuilder();
@@ -95,66 +95,6 @@ public class NotifyMedicalExaminationStatusRequestTests
         // Assert - All fields must match
         Assert.True(fieldComparisons.Count > 0, "No fields were found to compare");
         Assert.Empty(mismatches);
-    }
-
-    private void ExtractAllFieldsForComparison(JsonElement original, JsonElement reserialized, string path, List<(string, string, string, bool)> fieldComparisons, List<string> mismatches)
-    {
-        switch (original.ValueKind)
-        {
-            case JsonValueKind.Object:
-                foreach (var property in original.EnumerateObject())
-                {
-                    var newPath = string.IsNullOrEmpty(path) || path == "$" ? property.Name : $"{path}.{property.Name}";
-
-                    if (reserialized.TryGetProperty(property.Name, out var reserializedProp))
-                    {
-                        ExtractAllFieldsForComparison(property.Value, reserializedProp, newPath, fieldComparisons, mismatches);
-                    }
-                    else
-                    {
-                        fieldComparisons.Add((newPath, property.Value.ToString(), "<MISSING>", false));
-                        mismatches.Add($"Field missing in reserialized JSON: {newPath}");
-                    }
-                }
-                break;
-
-            case JsonValueKind.Array:
-                var originalLength = original.GetArrayLength();
-                var reserializedLength = reserialized.GetArrayLength();
-
-                if (originalLength != reserializedLength)
-                {
-                    fieldComparisons.Add((path, $"Array[{originalLength}]", $"Array[{reserializedLength}]", false));
-                    mismatches.Add($"Array length mismatch at {path}: {originalLength} vs {reserializedLength}");
-                }
-                else
-                {
-                    for (int i = 0; i < originalLength; i++)
-                    {
-                        var newPath = $"{path}[{i}]";
-                        ExtractAllFieldsForComparison(original[i], reserialized[i], newPath, fieldComparisons, mismatches);
-                    }
-                }
-                break;
-
-            case JsonValueKind.String:
-            case JsonValueKind.Number:
-            case JsonValueKind.True:
-            case JsonValueKind.False:
-            case JsonValueKind.Null:
-                // Compare leaf node values
-                var originalValue = original.ToString();
-                var reserializedValue = reserialized.ToString();
-                var valuesMatch = originalValue == reserializedValue;
-
-                fieldComparisons.Add((path, originalValue, reserializedValue, valuesMatch));
-
-                if (!valuesMatch)
-                {
-                    mismatches.Add($"Value mismatch at {path}: '{originalValue}' vs '{reserializedValue}'");
-                }
-                break;
-        }
     }
 }
 
